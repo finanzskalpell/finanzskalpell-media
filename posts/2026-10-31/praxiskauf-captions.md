@@ -1,8 +1,8 @@
-# Captions · praxiskauf
+# Captions · Paar 10 · Praxiskauf
 
 ## Caption Reel
 
-Hausarztpraxis kaufen: nur 112.300 Euro? Wir haben in die aktuelle Existenzgründungsanalyse von apoBank und Zi geschaut: Die Übernahme einer hausärztlichen Einzelpraxis kostete 2023/2024 im Schnitt rund 190.000 €. Der Kaufpreis selbst liegt bei 112.300 €, die restlichen 78.000 € gehen in Ausstattung und Umbau, und genau dieser Teil hat sich in zehn Jahren verdoppelt. In der Orthopädie sind es insgesamt 529.100 €, in der Psychiatrie 62.400 €.
+Eigene Praxis: 112.300 Euro sind nur der Anfang? Wir haben in die aktuelle Existenzgründungsanalyse von apoBank und Zi geschaut: Die Übernahme einer hausärztlichen Einzelpraxis kostete 2023/2024 im Schnitt rund 190.000 €. Der Kaufpreis selbst liegt bei 112.300 €, die restlichen 78.000 € gehen in Ausstattung und Umbau, und genau dieser Teil hat sich in zehn Jahren verdoppelt. In der Orthopädie sind es insgesamt 529.100 €, in der Psychiatrie 62.400 €.
 
 Frag beim nächsten Exposé nach zwei Zahlen: Kaufpreis, und was danach noch rein muss. Und schick das der Kollegin oder dem Kollegen, die sagen: „Der Kaufpreis geht ja noch.“
 

@@ -1,8 +1,8 @@
-# Captions · sparrate
+# Captions · Paar 13 · Sparrate
 
 ## Caption Reel
 
-Wie viel musst du sparen, um mit 60 aufzuhören? Eine Zahl für alle gibt es nicht, aber drei Stellschrauben: Zeit, Rendite, Sparrate. Im Beispiel kostet eine halbe Million mit 60 rund 498 Euro im Monat, wenn du mit 30 anfängst und 6 Prozent Rendite annimmst. Mit 40 sind es für dasselbe Ziel 1.082 Euro, mit 50 schon 3.051 Euro. Die Zeit ist die teuerste Stellschraube, die Rendite ist eine Annahme, und die Sparrate ist die einzige, die du heute selbst drehst. Dazu kommt: Das Versorgungswerk zahlt mit 60 meist noch nicht (Regelaltersgrenze 67, § 35 SGB VI; vorgezogen oft erst ab 62 und mit Abschlag).
+Mit 60 aufhören: reichen 500 Euro im Monat? Im Beispiel ja, wenn du mit 30 anfängst. Eine Zahl für alle gibt es nicht, aber drei Stellschrauben: Zeit, Rendite, Sparrate. Im Beispiel kostet eine halbe Million mit 60 rund 498 Euro im Monat, wenn du mit 30 anfängst und 6 Prozent Rendite annimmst. Mit 40 sind es für dasselbe Ziel 1.082 Euro, mit 50 schon 3.051 Euro. Die Zeit ist die teuerste Stellschraube, die Rendite ist eine Annahme, und die Sparrate ist die einzige, die du heute selbst drehst. Dazu kommt: Das Versorgungswerk zahlt mit 60 meist noch nicht (Regelaltersgrenze 67, § 35 SGB VI; vorgezogen oft erst ab 62 und mit Abschlag).
 
 Rechne 60 minus dein Alter, und schick das der Kollegin oder dem Kollegen, die sagen: „Mit 60 bin ich raus.“
 

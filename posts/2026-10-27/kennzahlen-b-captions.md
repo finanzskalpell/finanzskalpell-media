@@ -1,4 +1,4 @@
-# Captions · kennzahlen-b
+# Captions · Kennzahlen, Variante B · 2026-10-19
 
 ## Caption Reel
 
@@ -22,7 +22,7 @@ Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und s
 
 ## Caption Grafik des Tages
 
-Drei Jahre liefen die Kosten voraus. Von 2021 bis 2024 sind die Aufwendungen einer durchschnittlichen Arztpraxis um 23 Prozent gestiegen, von 420.000 auf 516.000 Euro, die Einnahmen nur um 13 Prozent, von 756.000 auf 854.000 Euro. 2023 lag der Abstand am weitesten auseinander, 2024 stiegen die Einnahmen zum ersten Mal seit zwei Jahren wieder schneller als die Kosten, plus 6,2 gegen plus 4,7 Prozent (Statistisches Bundesamt, Kostenstrukturstatistik im medizinischen Bereich, Arztpraxen inklusive Berufsausübungsgemeinschaften und MVZ, Durchschnitt je Praxis, Pressemitteilung vom 23. Juli 2026). Wer nur den Umsatz verfolgt, hat die Schere in diesen Jahren nicht gesehen. Weiterschicken an die Kollegin oder den Kollegen, die gerade die BWA vom letzten Quartal bekommen haben.
+Die Kosten stiegen schneller als die Einnahmen. Von 2021 bis 2024 sind die Aufwendungen einer durchschnittlichen Arztpraxis um 23 Prozent gestiegen, von 420.000 auf 516.000 Euro, die Einnahmen nur um 13 Prozent, von 756.000 auf 854.000 Euro. 2023 lag der Abstand am weitesten auseinander, 2024 stiegen die Einnahmen zum ersten Mal seit zwei Jahren wieder schneller als die Kosten, plus 6,2 gegen plus 4,7 Prozent (Statistisches Bundesamt, Kostenstrukturstatistik im medizinischen Bereich, Arztpraxen inklusive Berufsausübungsgemeinschaften und MVZ, Durchschnitt je Praxis, Pressemitteilung vom 23. Juli 2026). Wer nur den Umsatz verfolgt, hat die Schere in diesen Jahren nicht gesehen. Weiterschicken an die Kollegin oder den Kollegen, die gerade die BWA vom letzten Quartal bekommen haben.
 
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
