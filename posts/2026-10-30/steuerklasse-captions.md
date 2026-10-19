@@ -12,9 +12,9 @@ Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und s
 
 ## Caption Karussell
 
-Steuerklasse III/V, Schritt für Schritt. Der Unterschied in der Jahressteuer zwischen III/V und IV/IV ist 0 Euro, weil das Finanzamt bei Zusammenveranlagung nach dem Splitting rechnet: Einkommen zusammen, halbiert, Steuer darauf, mal zwei (§ 32a Abs. 5 EStG). Im Beispiel 100.000 plus 60.000 Euro zu versteuerndes Einkommen: einzeln gerechnet 30.864 plus 14.233 Euro, mit Splitting 44.928 Euro, Vorteil 169 Euro, mit jeder Steuerklasse. Je ungleicher die Einkommen, desto mehr bringt das Splitting: 80.000 plus 80.000 Euro 0 Euro, 120.000 plus 40.000 Euro 1.545 Euro, 160.000 plus 0 Euro 11.136 Euro (Tarif 2026, ohne Soli und Kirchensteuer). Steuerklasse III und V verschieben nur die Lohnsteuer übers Jahr, die Steuererklärung ist dann Pflicht (§ 46 Abs. 2 Nr. 3a EStG).
+Steuerklasse III und V, lohnt sich das? Wir haben es durchgerechnet. Der Unterschied in der Jahressteuer zwischen III/V und IV/IV ist null Euro. Das Finanzamt rechnet bei Zusammenveranlagung nämlich nach dem Splitting: beide Einkommen zusammen, halbieren, Steuer darauf, mal zwei (§ 32a Abs. 5 EStG). Im Beispiel mit 100.000 plus 60.000 Euro zu versteuerndem Einkommen: einzeln gerechnet 30.864 plus 14.233 Euro, mit Splitting 44.928 Euro, Vorteil 169 Euro, und zwar mit jeder Steuerklasse. Je ungleicher die Einkommen, desto mehr bringt das Splitting: 80.000 plus 80.000 Euro bringt 0 Euro, 120.000 plus 40.000 Euro 1.545 Euro, 160.000 plus 0 Euro 11.136 Euro (Tarif 2026, ohne Soli und Kirchensteuer). Steuerklasse III und V verschieben nur, wann im Jahr du die Lohnsteuer zahlst, und die Steuererklärung wird damit Pflicht (§ 46 Abs. 2 Nr. 3a EStG).
 
-Karte 7 ist der Merkzettel: Zeile Nachzahlung oder Erstattung im Bescheid, Steuerklasse und Faktor auf dem Gehaltszettel, und beim Kinderwunsch die Steuerklasse in 7 der 12 Monate vor dem Mutterschutz (§ 2c BEEG). Speichern und weiterschicken an die Kollegin oder den Kollegen, die sagen: „Mit Steuerklasse III hab ich mehr raus.“
+Karte 7 zum Nachschauen: die Zeile Nachzahlung oder Erstattung im Bescheid, Steuerklasse und Faktor auf dem Gehaltszettel, und beim Kinderwunsch die Steuerklasse in 7 der 12 Monate vor dem Mutterschutz (§ 2c BEEG), weil das Elterngeld am Netto hängt. Schick das der Kollegin, die sagt, mit Steuerklasse III hat sie mehr raus.
 
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
@@ -27,3 +27,5 @@ Die 42-%-Grenze bleibt zurück. Seit 2010 ist der Grundfreibetrag von 8.004 auf 
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
 #Finanzskalpell #Spitzensteuersatz #Einkommensteuer #Grundfreibetrag #Steuern #Ärztinnen #Ärzte
+
+*Karussell-Caption am 19.10.2026 abends neu geschrieben (natürlicher Ton, erster Satz ein ganzer Gedanke); Reel-Caption unverändert aus dem Paar-Doc.*

@@ -12,9 +12,9 @@ Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und s
 
 ## Caption Karussell
 
-Mit 60 aufhören, Schritt für Schritt. Im Beispiel ist das Ziel 500.000 Euro mit 60, Rendite 6 Prozent im Jahr, monatliche Rate, vor Steuern und Kosten. Start mit 30: 498 Euro im Monat. Start mit 35: 722 Euro. Start mit 40: 1.082 Euro. Start mit 45: 1.719 Euro. Start mit 50: 3.051 Euro. Zehn Jahre später anfangen heißt mehr als die doppelte Rate, zwanzig Jahre später das Sechsfache. Bei 4 statt 6 Prozent steigt die Rate für den Start mit 40 von 1.082 auf 1.363 Euro, also um 26 Prozent. Und 100 Euro mehr im Monat werden über 30 Jahre bei 6 Prozent zu rund 100.452 Euro, eingezahlt sind davon 36.000 Euro. Die Rate ist die einzige der drei Stellschrauben, die du heute selbst drehst.
+Mit 60 aufhören, geht das? Wir haben es Schritt für Schritt durchgerechnet. Das Beispiel: Ziel 500.000 Euro mit 60, Rendite 6 Prozent im Jahr, monatliche Sparrate, vor Steuern und Kosten. Startest du mit 30, brauchst du 498 Euro im Monat. Mit 35: 722 Euro. Mit 40: 1.082 Euro. Mit 45: 1.719 Euro. Mit 50: 3.051 Euro. Zehn Jahre später anfangen heißt also mehr als die doppelte Rate, zwanzig Jahre später das Sechsfache. Und wenn es statt 6 nur 4 Prozent werden, steigt die Rate für den Start mit 40 von 1.082 auf 1.363 Euro, 26 Prozent mehr. Andersherum: 100 Euro mehr im Monat werden über 30 Jahre bei 6 Prozent zu rund 100.452 Euro, eingezahlt hast du davon 36.000 Euro. Von den drei Stellschrauben, Zeit, Rendite und Rate, ist die Rate die einzige, die du heute selbst drehen kannst.
 
-Karte 7 ist der Merkzettel: 60 minus dein Alter, die Satzung deines Versorgungswerks (Regelaltersgrenze 67, vorgezogen oft ab 62 mit Abschlag, zum Beispiel 0,4 Prozent je Monat), und deine Sparquote vom letzten Monat. Speichern und weiterschicken an die Kollegin oder den Kollegen, die sagen: „Mit 60 bin ich raus.“
+Karte 7: 60 minus dein Alter, die Satzung deines Versorgungswerks (Regelaltersgrenze 67, vorgezogen oft ab 62 mit Abschlag, zum Beispiel 0,4 Prozent je Monat), und deine Sparquote vom letzten Monat. Schick das der Kollegin, die sagt, mit 60 ist sie raus.
 
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
@@ -22,8 +22,10 @@ Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und s
 
 ## Caption Grafik des Tages
 
-Gespart wird jeder zehnte Euro. Die privaten Haushalte in Deutschland haben 2024 elf Komma zwei Prozent ihres verfügbaren Einkommens gespart. Von 2005 bis 2019 lag die Sparquote im Schnitt bei 10,3 Prozent, im Tief 2013 bei 9,4 Prozent. Nur 2020 und 2021 sprang sie auf 16,0 und 14,2 Prozent, weil in der Pandemie weniger ausgegeben werden konnte; seit 2022 liegt sie wieder bei 10 bis 11 Prozent (Arbeitskreis VGR der Länder, Berechnungsstand August 2025; 1. Halbjahr 2025: 10,3 Prozent, Destatis). Die Sparquote ist die eine Zahl, die jede und jeder sofort selbst nachrechnen kann: gesparter Betrag geteilt durch Netto. Weiterschicken an die Kollegin oder den Kollegen, die ihre Sparquote noch nie ausgerechnet haben.
+Die privaten Haushalte in Deutschland haben 2024 im Schnitt 11,2 Prozent ihres verfügbaren Einkommens gespart, also ungefähr jeden zehnten Euro. Von 2005 bis 2019 lag die Sparquote bei 10,3 Prozent, das Tief war 2013 mit 9,4 Prozent. Nur 2020 und 2021 sprang sie auf 16,0 und 14,2 Prozent, weil in der Pandemie weniger ausgegeben werden konnte; seit 2022 liegt sie wieder bei 10 bis 11 Prozent (Arbeitskreis VGR der Länder, Berechnungsstand August 2025; erstes Halbjahr 2025: 10,3 Prozent, Destatis). Das Schöne an der Sparquote: Du kannst sie in einer Minute für dich selbst ausrechnen, gesparter Betrag geteilt durch Netto. Wenn du jemanden kennst, der das noch nie gemacht hat, schick es weiter.
 
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
 #Finanzskalpell #Sparquote #Sparen #Statistik #Geldanlage #Ärztinnen #Ärzte
+
+*Karussell-Caption und Grafik-Caption am 19.10.2026 abends neu geschrieben (natürlicher Ton, erster Satz ein ganzer Gedanke); Reel-Caption unverändert aus dem Paar-Doc.*

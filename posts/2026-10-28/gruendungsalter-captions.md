@@ -12,9 +12,9 @@ Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und s
 
 ## Caption Karussell
 
-Wer gründet heute eine Praxis, und wann? Alter, Form und Standort aus der Existenzgründungsanalyse von apoBank und Zi (2023/2024, 885 hausärztliche Gründungen): 14 Prozent gründen bis 35, 30 Prozent mit 36 bis 40, 30 Prozent mit 41 bis 45, 26 Prozent nach 45, im Schnitt mit 42,0 Jahren. 58 Prozent der Gründerinnen und Gründer sind Frauen, bei den Facharztpraxen 62 Prozent. 58 Prozent gründen als Einzelpraxis, 42 Prozent in Kooperation; die Übernahme einer Einzelpraxis ist mit 46 Prozent die häufigste Form, ganz neu gegründet wurden in der Vorperiode nur 10 Prozent, 22 Prozent traten in eine BAG ein. 37 Prozent lassen sich in der Großstadt nieder, 28 Prozent in der Mittelstadt, 25 Prozent in der Kleinstadt, 10 Prozent auf dem Land (Facharztpraxen: 51 Prozent Großstadt, 3 Prozent Land), und auf dem Land kostet die Übernahme im Schnitt 151.700 Euro, in der Großstadt 205.000 Euro.
+Wer gründet heute eigentlich noch eine Praxis, und wann? Die Antwort steht in der Existenzgründungsanalyse von apoBank und Zi (2023/2024, 885 hausärztliche Gründungen). Nur 14 Prozent gründen bis 35. 30 Prozent sind zwischen 36 und 40, 30 Prozent zwischen 41 und 45, 26 Prozent älter als 45. Im Schnitt: 42,0 Jahre. 58 Prozent der Gründerinnen und Gründer sind Frauen, bei den Facharztpraxen 62 Prozent. 58 Prozent machen eine Einzelpraxis auf, 42 Prozent gehen in eine Kooperation, und am häufigsten ist mit 46 Prozent die Übernahme einer Einzelpraxis; ganz neu gegründet wurden in der Vorperiode nur 10 Prozent, 22 Prozent traten in eine BAG ein. Beim Standort: 37 Prozent Großstadt, 28 Prozent Mittelstadt, 25 Prozent Kleinstadt, 10 Prozent Land (Facharztpraxen: 51 Prozent Großstadt, 3 Prozent Land). Auf dem Land kostet die Übernahme im Schnitt 151.700 Euro, in der Großstadt 205.000 Euro.
 
-Karte 6 ist das Beispiel: Approbation mit 26, Facharzt mit 32, eigene Praxis mit 42, dazwischen zehn Jahre angestellt. Karte 7 der Merkzettel: 42 minus dein Alter, das Facharztjahr im Logbuch, die Praxisbörse deiner KV. Speichern und weiterschicken an die Kollegin oder den Kollegen, die sagen: „Für eine eigene Praxis bin ich noch zu jung.“
+Karte 6 rechnet ein Beispiel durch: Approbation mit 26, Facharzt mit 32, eigene Praxis mit 42, dazwischen zehn Jahre angestellt. Karte 7 ist für dich: 42 minus dein Alter, das Facharztjahr im Logbuch, die Praxisbörse deiner KV. Und falls du jemanden kennst, der sich für eine eigene Praxis noch zu jung fühlt: weiterschicken.
 
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
@@ -27,3 +27,5 @@ Die Ausstattung wird schneller teurer als die Praxis selbst. Wer eine Hausarztpr
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
 #Finanzskalpell #Praxisübernahme #Praxiskauf #Praxisgründung #Statistik #Ärztinnen #Ärzte
+
+*Karussell-Caption am 19.10.2026 abends neu geschrieben (natürlicher Ton, erster Satz ein ganzer Gedanke); Reel-Caption unverändert aus dem Paar-Doc.*
