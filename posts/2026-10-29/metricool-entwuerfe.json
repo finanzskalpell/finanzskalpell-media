@@ -1,0 +1,109 @@
+{
+ "stand": "2026-10-27, Montagsplanung (Lauf 27.10. 6:20 Uhr)",
+ "hinweis": "Der Berechtigungs-Classifier der Sitzung hat updateScheduledPost abgelehnt. Die beiden Aufrufe im nächsten Chat ausführen (ids ändern sich bei jedem Update, uuid bleibt; vorher getScheduledPosts 29.10.).",
+ "aufrufe": [
+  {
+   "zweck": "Abend 29.10.: Karussell-Video Paar 13 bekommt Instagram als REEL dazu (Vorgabe 26.10., Instagram-Abend wird Video). Status (draft) wie vorhanden lassen; Christoph entscheidet.",
+   "tool": "updateScheduledPost",
+   "id": 400840435,
+   "uuid": "-460475781020696529",
+   "blogId": "5366997",
+   "info": {
+    "autoPublish": true,
+    "shortener": false,
+    "hasNotReadNotes": false,
+    "firstCommentText": "",
+    "descendants": [],
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "Mit 60 aufhören, geht das? Wir haben es Schritt für Schritt durchgerechnet. Das Beispiel: Ziel 500.000 Euro mit 60, Rendite 6 Prozent im Jahr, monatliche Sparrate, vor Steuern und Kosten. Startest du mit 30, brauchst du 498 Euro im Monat. Mit 35: 722 Euro. Mit 40: 1.082 Euro. Mit 45: 1.719 Euro. Mit 50: 3.051 Euro. Zehn Jahre später anfangen heißt also mehr als die doppelte Rate, zwanzig Jahre später das Sechsfache. Und wenn es statt 6 nur 4 Prozent werden, steigt die Rate für den Start mit 40 von 1.082 auf 1.363 Euro, 26 Prozent mehr. Andersherum: 100 Euro mehr im Monat werden über 30 Jahre bei 6 Prozent zu rund 100.452 Euro, eingezahlt hast du davon 36.000 Euro. Von den drei Stellschrauben, Zeit, Rendite und Rate, ist die Rate die einzige, die du heute selbst drehen kannst.\n\nKarte 7: 60 minus dein Alter, die Satzung deines Versorgungswerks (Regelaltersgrenze 67, vorgezogen oft ab 62 mit Abschlag, zum Beispiel 0,4 Prozent je Monat), und deine Sparquote vom letzten Monat. Schick das der Kollegin, die sagt, mit 60 ist sie raus.\n\nHinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.\n\n#Finanzskalpell #Sparrate",
+    "publicationDate": {
+     "dateTime": "2026-10-29T19:36:00",
+     "timezone": "Europe/Berlin"
+    },
+    "draft": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/5366997-file-11405798599933138068.mp4"
+    ],
+    "mediaAltText": [
+     "Animiertes Karussell mit acht Karten: Welche Sparrate du brauchst, um mit 60 aufzuhören, Beispiel 500.000 Euro bei 6 Prozent."
+    ],
+    "providers": [
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "tiktok"
+     }
+    ],
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    },
+    "youtubeData": {
+     "title": "Mit 60 aufhören: Welche Sparrate du brauchst",
+     "type": "short",
+     "privacy": "public",
+     "category": "EDUCATION",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "tiktokData": {
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "title": "Mit 60 aufhören: reichen 500 € im Monat? Acht Karten mit den Zahlen.",
+     "photoCoverIndex": 0
+    }
+   }
+  },
+  {
+   "zweck": "Abend 29.10.: Grafik des Tages Paar 13 nur noch auf Facebook und LinkedIn (Instagram raus).",
+   "tool": "updateScheduledPost",
+   "id": 400840218,
+   "uuid": "786086439484736822",
+   "blogId": "5366997",
+   "info": {
+    "autoPublish": true,
+    "shortener": false,
+    "hasNotReadNotes": false,
+    "firstCommentText": "",
+    "descendants": [],
+    "smartLinkData": {
+     "ids": []
+    },
+    "text": "Die privaten Haushalte in Deutschland haben 2024 im Schnitt 11,2 Prozent ihres verfügbaren Einkommens gespart, also ungefähr jeden zehnten Euro. Von 2005 bis 2019 lag die Sparquote bei 10,3 Prozent, das Tief war 2013 mit 9,4 Prozent. Nur 2020 und 2021 sprang sie auf 16,0 und 14,2 Prozent, weil in der Pandemie weniger ausgegeben werden konnte; seit 2022 liegt sie wieder bei 10 bis 11 Prozent (Arbeitskreis VGR der Länder, Berechnungsstand August 2025; erstes Halbjahr 2025: 10,3 Prozent, Destatis). Das Schöne an der Sparquote: Du kannst sie in einer Minute für dich selbst ausrechnen, gesparter Betrag geteilt durch Netto. Wenn du jemanden kennst, der das noch nie gemacht hat, schick es weiter.\n\nHinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.\n\n#Finanzskalpell #Sparquote",
+    "publicationDate": {
+     "dateTime": "2026-10-29T19:29:00",
+     "timezone": "Europe/Berlin"
+    },
+    "draft": false,
+    "media": [
+     "https://static.metricool.com/planner/202610/5366997-file-12507263977898236988.jpeg"
+    ],
+    "mediaAltText": [
+     "Grafik des Tages: Sparquote der privaten Haushalte 2005 bis 2024, Balken, 2024 bei 11,2 Prozent."
+    ],
+    "providers": [
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "linkedin"
+     }
+    ],
+    "facebookData": {
+     "type": "POST"
+    },
+    "linkedinData": {
+     "publishImagesAsPDF": false,
+     "previewIncluded": true,
+     "type": "post"
+    }
+   }
+  }
+ ]
+}
