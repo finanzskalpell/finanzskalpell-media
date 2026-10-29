@@ -1,0 +1,130 @@
+{
+ "stand": "2026-10-29, Donnerstagsplanung (Lauf 29.10. 5:50 Uhr)",
+ "hinweis": "Der Berechtigungs-Classifier der Sitzung hat updateScheduledPost am 29.10. (Donnerstagsplanung) erneut abgelehnt. Die Aufrufe im nächsten Chat mit Christoph ausführen (vorher getScheduledPosts für den Tag: ids ändern sich bei jedem Update, uuid bleibt; Status draft wie vorhanden lassen, die Posts sind auf „geplant“).",
+ "aufrufe": [
+  {
+   "zweck": "Abend 30.10.: Karussell-Bild Paar 12 ohne Instagram (Vorgabe 26.10.: Instagram-Abend wird Video; Bildformat nur Facebook und LinkedIn).",
+   "tool": "updateScheduledPost",
+   "id": 407576754,
+   "uuid": "-117680495089991609",
+   "blogId": "5366997",
+   "info": {
+    "autoPublish": true,
+    "shortener": false,
+    "hasNotReadNotes": false,
+    "firstCommentText": "",
+    "descendants": [],
+    "smartLinkData": {
+     "ids": []
+    },
+    "draft": false,
+    "text": "Steuerklasse III und V, lohnt sich das? Wir haben es durchgerechnet. Der Unterschied in der Jahressteuer zwischen III/V und IV/IV ist null Euro. Das Finanzamt rechnet bei Zusammenveranlagung nämlich nach dem Splitting: beide Einkommen zusammen, halbieren, Steuer darauf, mal zwei (§ 32a Abs. 5 EStG). Im Beispiel mit 100.000 plus 60.000 Euro zu versteuerndem Einkommen: einzeln gerechnet 30.864 plus 14.233 Euro, mit Splitting 44.928 Euro, Vorteil 169 Euro, und zwar mit jeder Steuerklasse. Je ungleicher die Einkommen, desto mehr bringt das Splitting: 80.000 plus 80.000 Euro bringt 0 Euro, 120.000 plus 40.000 Euro 1.545 Euro, 160.000 plus 0 Euro 11.136 Euro (Tarif 2026, ohne Soli und Kirchensteuer). Steuerklasse III und V verschieben nur, wann im Jahr du die Lohnsteuer zahlst, und die Steuererklärung wird damit Pflicht (§ 46 Abs. 2 Nr. 3a EStG).\n\nKarte 7 zum Nachschauen: die Zeile Nachzahlung oder Erstattung im Bescheid, Steuerklasse und Faktor auf dem Gehaltszettel, und beim Kinderwunsch die Steuerklasse in 7 der 12 Monate vor dem Mutterschutz (§ 2c BEEG), weil das Elterngeld am Netto hängt. Schick das der Kollegin, die sagt, mit Steuerklasse III hat sie mehr raus.\n\nHinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.\n\n#Finanzskalpell #Steuerklasse",
+    "publicationDate": {
+     "dateTime": "2026-10-30T19:06:00",
+     "timezone": "Europe/Berlin"
+    },
+    "media": [
+     "https://static.metricool.com/planner/202610/5366997-file-1000625399556280330.jpeg",
+     "https://static.metricool.com/planner/202610/5366997-file-7682429681312506361.jpeg",
+     "https://static.metricool.com/planner/202610/5366997-file-14770906420415195318.jpeg",
+     "https://static.metricool.com/planner/202610/5366997-file-16843146117371296113.jpeg",
+     "https://static.metricool.com/planner/202610/5366997-file-4193699309440943623.jpeg",
+     "https://static.metricool.com/planner/202610/5366997-file-13719202111193335461.jpeg",
+     "https://static.metricool.com/planner/202610/5366997-file-15854428527810409091.jpeg",
+     "https://static.metricool.com/planner/202610/5366997-file-1908952882425523076.jpeg"
+    ],
+    "mediaAltText": [
+     "Cover: Steuerklasse III: 0 € gespart im Jahr?",
+     "Die Zahl: 0 Euro Unterschied in der Jahressteuer",
+     "Wie das Splitting rechnet",
+     "Beispiel 100.000 plus 60.000 Euro",
+     "Je ungleicher die Einkommen, desto größer der Splittingvorteil",
+     "Was die Steuerklasse wirklich verschiebt",
+     "Merkzettel: Bescheid, Gehaltszettel, Elterngeld",
+     "Schluss: Lohnt sich Steuerklasse III/V für euch?"
+    ],
+    "providers": [
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "linkedin"
+     }
+    ],
+    "facebookData": {
+     "type": "POST"
+    },
+    "linkedinData": {
+     "documentTitle": "Steuerklasse III: 0 € gespart im Jahr?",
+     "publishImagesAsPDF": true,
+     "previewIncluded": true,
+     "type": "post"
+    }
+   }
+  },
+  {
+   "zweck": "Abend 30.10.: Karussell-Video Paar 12 bekommt Instagram als REEL dazu.",
+   "tool": "updateScheduledPost",
+   "id": 400841296,
+   "uuid": "274556370003445253",
+   "blogId": "5366997",
+   "info": {
+    "autoPublish": true,
+    "shortener": false,
+    "hasNotReadNotes": false,
+    "firstCommentText": "",
+    "descendants": [],
+    "smartLinkData": {
+     "ids": []
+    },
+    "draft": false,
+    "text": "Steuerklasse III und V, lohnt sich das? Wir haben es durchgerechnet. Der Unterschied in der Jahressteuer zwischen III/V und IV/IV ist null Euro. Das Finanzamt rechnet bei Zusammenveranlagung nämlich nach dem Splitting: beide Einkommen zusammen, halbieren, Steuer darauf, mal zwei (§ 32a Abs. 5 EStG). Im Beispiel mit 100.000 plus 60.000 Euro zu versteuerndem Einkommen: einzeln gerechnet 30.864 plus 14.233 Euro, mit Splitting 44.928 Euro, Vorteil 169 Euro, und zwar mit jeder Steuerklasse. Je ungleicher die Einkommen, desto mehr bringt das Splitting: 80.000 plus 80.000 Euro bringt 0 Euro, 120.000 plus 40.000 Euro 1.545 Euro, 160.000 plus 0 Euro 11.136 Euro (Tarif 2026, ohne Soli und Kirchensteuer). Steuerklasse III und V verschieben nur, wann im Jahr du die Lohnsteuer zahlst, und die Steuererklärung wird damit Pflicht (§ 46 Abs. 2 Nr. 3a EStG).\n\nKarte 7 zum Nachschauen: die Zeile Nachzahlung oder Erstattung im Bescheid, Steuerklasse und Faktor auf dem Gehaltszettel, und beim Kinderwunsch die Steuerklasse in 7 der 12 Monate vor dem Mutterschutz (§ 2c BEEG), weil das Elterngeld am Netto hängt. Schick das der Kollegin, die sagt, mit Steuerklasse III hat sie mehr raus.\n\nHinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.\n\n#Finanzskalpell #Steuerklasse",
+    "publicationDate": {
+     "dateTime": "2026-10-30T19:11:00",
+     "timezone": "Europe/Berlin"
+    },
+    "media": [
+     "https://static.metricool.com/planner/202610/5366997-file-2603699768080620774.mp4"
+    ],
+    "mediaAltText": [
+     "Animiertes Karussell mit acht Karten: Steuerklasse III und V, warum das Splitting die Jahressteuer bestimmt und nicht die Steuerklasse."
+    ],
+    "providers": [
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "tiktok"
+     }
+    ],
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    },
+    "youtubeData": {
+     "title": "Steuerklasse III/V: Was das Splitting wirklich bringt",
+     "type": "short",
+     "privacy": "public",
+     "category": "EDUCATION",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "tiktokData": {
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "title": "Steuerklasse III: 0 € gespart im Jahr? Acht Karten mit den Zahlen.",
+     "photoCoverIndex": 0,
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "commercialContentOwnBrand": false,
+     "commercialContentThirdParty": false,
+     "isAigc": false
+    }
+   }
+  }
+ ]
+}

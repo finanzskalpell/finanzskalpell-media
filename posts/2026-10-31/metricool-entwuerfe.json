@@ -1,0 +1,115 @@
+{
+ "stand": "2026-10-29, Donnerstagsplanung (Lauf 29.10. 5:50 Uhr)",
+ "hinweis": "Der Berechtigungs-Classifier der Sitzung hat updateScheduledPost am 29.10. (Donnerstagsplanung) erneut abgelehnt. Die Aufrufe im nächsten Chat mit Christoph ausführen (vorher getScheduledPosts für den Tag: ids ändern sich bei jedem Update, uuid bleibt; Status draft wie vorhanden lassen, die Posts sind auf „geplant“).",
+ "aufrufe": [
+  {
+   "zweck": "Abend 31.10.: Grafik des Tages Paar 10 ohne Instagram (Bildformat nur Facebook und LinkedIn).",
+   "tool": "updateScheduledPost",
+   "id": 407577129,
+   "uuid": "7419793318462703868",
+   "blogId": "5366997",
+   "info": {
+    "autoPublish": true,
+    "shortener": false,
+    "hasNotReadNotes": false,
+    "firstCommentText": "",
+    "descendants": [],
+    "smartLinkData": {
+     "ids": []
+    },
+    "draft": false,
+    "text": "Ende 2004 gab es in Deutschland 70 Medizinische Versorgungszentren. Ende 2024 waren es 5.085, und seit 2015 hat sich die Zahl mehr als verdoppelt (KBV, Statistische Informationen zum Stichtag 31.12.2024). Bei fast jedem zweiten MVZ ist ein Krankenhaus der Träger, und von den rund 31.900 Ärztinnen, Ärzten und Psychotherapeuten, die in MVZ arbeiten, sind 30.133 angestellt. Wenn du eine Praxis abgeben oder übernehmen willst, ist das der Markt, in dem du dich bewegst, und der Käufer ist immer öfter kein Kollege, sondern eine Kette. Für alle, die gerade zwischen Anstellung und eigener Praxis schwanken.\n\nHinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.\n\n#Finanzskalpell #MVZ",
+    "publicationDate": {
+     "dateTime": "2026-10-31T19:19:00",
+     "timezone": "Europe/Berlin"
+    },
+    "media": [
+     "https://static.metricool.com/planner/202610/5366997-file-16332645796452482740.jpeg"
+    ],
+    "mediaAltText": [
+     "Grafik des Tages: Zahl der Medizinischen Versorgungszentren 2004 bis 2024, von 70 auf 5.085."
+    ],
+    "providers": [
+     {
+      "network": "facebook"
+     },
+     {
+      "network": "linkedin"
+     }
+    ],
+    "facebookData": {
+     "type": "POST"
+    },
+    "linkedinData": {
+     "publishImagesAsPDF": false,
+     "previewIncluded": true,
+     "type": "post"
+    }
+   }
+  },
+  {
+   "zweck": "Abend 31.10.: Karussell-Video Paar 10 bekommt Instagram als REEL dazu.",
+   "tool": "updateScheduledPost",
+   "id": 400842239,
+   "uuid": "-6589625591177916678",
+   "blogId": "5366997",
+   "info": {
+    "autoPublish": true,
+    "shortener": false,
+    "hasNotReadNotes": false,
+    "firstCommentText": "",
+    "descendants": [],
+    "smartLinkData": {
+     "ids": []
+    },
+    "draft": false,
+    "text": "Was kostet es, eine Hausarztpraxis zu übernehmen? Schritt für Schritt: Der Kaufpreis lag 2023/2024 im Schnitt bei 112.300 Euro, 61 Prozent der Gründerinnen und Gründer zahlen bis 100.000 Euro, 8 Prozent mehr als 200.000. Damit ist es aber nicht getan. Dazu kommen 78.000 Euro für Ausstattung und Umbau, doppelt so viel wie vor zehn Jahren und inzwischen zwei Fünftel der ganzen Investition. Zusammen rund 190.000 Euro; 2013/2014 waren es noch 115.300. Je nach Fach sieht das ganz anders aus: Psychiatrie 62.400 Euro, Kinderheilkunde 237.400, Gynäkologie 290.400, Orthopädie 529.100 (apoBank/Zi, Existenzgründungsanalyse 2023/2024).\n\nKarte 7 ist für das erste Gespräch: Ist der Kaufpreis aufgeteilt in Geräte und Möbel einerseits und Patientenstamm andererseits, wie alt sind Geräte und IT laut Anlageverzeichnis, und was sagt die Niederlassungsberatung deiner KV. Schick das dem Kollegen, der sagt, der Kaufpreis geht ja noch.\n\nHinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.\n\n#Finanzskalpell #Praxisübernahme",
+    "publicationDate": {
+     "dateTime": "2026-10-31T19:27:00",
+     "timezone": "Europe/Berlin"
+    },
+    "media": [
+     "https://static.metricool.com/planner/202610/5366997-file-12115680429684410206.mp4"
+    ],
+    "mediaAltText": [
+     "Animiertes Karussell mit acht Karten: Was die Übernahme einer Hausarztpraxis kostet, Kaufpreis plus Ausstattung."
+    ],
+    "providers": [
+     {
+      "network": "instagram"
+     },
+     {
+      "network": "youtube"
+     },
+     {
+      "network": "tiktok"
+     }
+    ],
+    "instagramData": {
+     "type": "REEL",
+     "showReelOnFeed": true,
+     "isAiGenerated": false
+    },
+    "youtubeData": {
+     "title": "Was eine Hausarztpraxis bei der Übernahme kostet",
+     "type": "short",
+     "privacy": "public",
+     "category": "EDUCATION",
+     "madeForKids": false,
+     "isAiGeneratedContent": false
+    },
+    "tiktokData": {
+     "privacyOption": "PUBLIC_TO_EVERYONE",
+     "title": "Eigene Praxis: 112.300 € sind nur der Anfang? Acht Karten mit den Zahlen.",
+     "photoCoverIndex": 0,
+     "disableComment": false,
+     "disableDuet": false,
+     "disableStitch": false,
+     "commercialContentOwnBrand": false,
+     "commercialContentThirdParty": false,
+     "isAigc": false
+    }
+   }
+  }
+ ]
+}
