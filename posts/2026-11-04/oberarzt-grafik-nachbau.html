@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Grafik des Tages · Oberarzt (Nachbau 29.10.2026)</title>
+<style>
+@font-face{font-family:Manrope;font-weight:800;src:url(fonts/manrope-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:500;src:url(fonts/inter-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:600;src:url(fonts/inter-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:700;src:url(fonts/inter-latin-700-normal.woff2) format('woff2')}
+:root{--vi:#7421FC;--ink:#222831;--ink2:#39414E;--meta:#69707D;--paper:#F7F7F3;--rule:#DEDDD6;--ctx:#8A909B}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:Inter,system-ui,sans-serif;color:var(--ink)}
+.k{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--paper);margin:0 0 20px 0}
+.grid{position:absolute;inset:-120px;background-image:linear-gradient(rgba(34,40,49,0.055) 1px,transparent 1px),linear-gradient(90deg,rgba(34,40,49,0.055) 1px,transparent 1px);background-size:60px 60px}
+.rad{position:absolute;width:1000px;height:1000px;border-radius:50%;filter:blur(40px)}
+.rad1{top:-420px;right:-420px;background:radial-gradient(closest-side,rgba(116,33,252,.13),rgba(116,33,252,0))}
+.rad2{bottom:-460px;left:-460px;background:radial-gradient(closest-side,rgba(116,33,252,.10),rgba(116,33,252,0))}
+.spine{position:absolute;left:0;top:0;width:14px;height:1350px;background:var(--vi)}
+.topic{position:absolute;left:104px;top:160px;background:var(--vi);color:#fff;font:800 26px/1 Manrope;letter-spacing:.12em;text-transform:uppercase;padding:15px 22px;border-radius:999px}
+.label{position:absolute;top:150px;right:82px;text-align:right;font:600 27px/1.2 Inter;color:var(--ink2);padding-right:18px;border-right:8px solid var(--vi)}
+.label b{color:var(--ink);font-weight:700}
+.c{position:absolute;left:104px;right:82px;top:290px;bottom:230px;display:flex;flex-direction:column}
+.eyebrow{font:800 27px/1.3 Manrope;letter-spacing:.24em;text-transform:uppercase;color:var(--vi);margin-bottom:20px;white-space:nowrap}
+.h{font:800 74px/1.04 Manrope;letter-spacing:-.03em;color:var(--ink);max-width:894px}
+.h .vi{color:var(--vi)}
+.sub{font:600 32px/1.3 Inter;color:var(--ink2);margin-top:16px;max-width:894px;white-space:nowrap}
+.legend{display:flex;gap:34px;margin-top:18px;font:600 27px/1 Inter;color:var(--ink2)}
+.legend span{display:flex;align-items:center;gap:12px}
+.legend i{display:block;width:34px;height:14px;border-radius:4px;background:var(--vi)}
+.legend i.ctx{background:var(--ctx)}
+.chart{margin-top:12px;width:894px;height:360px}
+.chart svg{width:894px;height:360px;display:block;overflow:visible}
+.ax{font:600 24px Inter;fill:var(--meta)}
+.gl{font:700 24px Inter;fill:var(--ink2)}
+.grl{stroke:#DEDDD6;stroke-width:1.5}
+.el{font:800 26px Manrope;fill:var(--ink);letter-spacing:-.02em}
+.el.vi{fill:var(--vi)}
+.note{font:700 24px Inter;fill:var(--ink2)}
+.src{margin-top:auto;font:500 22px/1.35 Inter;color:var(--meta)}
+.fz{position:absolute;left:104px;right:82px;bottom:150px;height:40px;display:flex;align-items:center;justify-content:space-between}
+.fz img{height:40px;width:auto;display:block}
+</style>
+</head>
+<body>
+
+<div class="k" id="k1">
+  <div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Klinikgehalt</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Grafik des Tages · TV-Ärzte/VKA</div>
+    <div class="h">Oberarzt-Start: mehr als<br><span class="vi">fast jede Facharzt-Stufe</span></div>
+    <div class="sub">Brutto im Monat, die Stufe steigt mit den Berufsjahren</div>
+    <div class="legend"><span><i></i>Oberarzt (Ä3)</span><span><i class="ctx"></i>Facharzt (Ä2) und leitender Oberarzt (Ä4)</span></div>
+    <div class="chart"><svg id="svg" viewBox="0 0 894 360"></svg></div>
+    <div class="src" id="src">Quelle: TV-Ärzte/VKA (kommunale Krankenhäuser), Entgelttabelle gültig 1.6. bis 31.12.2026, Marburger Bund; brutto je Monat bei 40 Wochenstunden. Stufenaufstieg nach § 19 Abs. 1: Ä2 nach 3/6/8/10/12 Jahren, Ä3 nach 3 und 6, Ä4 nach 3 Jahren. Wer aus Ä2 Stufe 6 kommt, behält als Oberarzt 9.698,91 € (§ 20 Abs. 4 Satz 2). Achse beginnt bei 6.000 €.</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""></div>
+</div>
+
+<script>
+// Entgelttabelle TV-Ärzte/VKA ab 1.6.2026 (Monatsentgelte in Euro)
+const groups=[
+  {name:'Facharzt Ä2',vals:[7552.19,8185.40,8741.40,9065.74,9382.33,9698.91],story:false},
+  {name:'Oberarzt Ä3',vals:[9459.56,10015.53,10810.95],story:true},
+  {name:'Ltd. Oberarzt Ä4',vals:[11127.50,11922.95],story:false}
+];
+const W=894,H=360,L=112,PT=40,PB=296,BW=52,GAP=10,GG=40;
+const YMIN=6000,YMAX=12000,YT=[6000,8000,10000,12000];
+const y=v=>PB-(v-YMIN)/(YMAX-YMIN)*(PB-PT);
+const fmt=n=>Math.round(n).toLocaleString('de-DE');
+const svg=document.getElementById('svg'); let s='';
+YT.forEach(v=>{s+=`<line class="grl" x1="${L}" y1="${y(v)}" x2="${W}" y2="${y(v)}" ${v===YMIN?'stroke-width="2.5"':''}/><text class="ax" x="${L-14}" y="${y(v)+8}" text-anchor="end">${fmt(v)} €</text>`;});
+let x=L+10; const pos=[];
+groups.forEach((g,gi)=>{const start=x; g.vals.forEach((v,i)=>{const col=g.story?'#7421FC':'#8A909B'; const top=y(v);
+  s+=`<path d="M${x} ${PB} V${top+6} q0 -6 6 -6 h${BW-12} q6 0 6 6 V${PB} Z" fill="${col}"/>`;
+  s+=`<text class="ax" x="${x+BW/2}" y="322" text-anchor="middle">${i+1}</text>`;
+  pos.push({x,v,g:gi,i}); x+=BW+GAP;});
+  const end=x-GAP; if(gi===2) s+=`<text class="gl" x="${W}" y="352" text-anchor="end">${g.name}</text>`; else s+=`<text class="gl" x="${(start+end)/2}" y="352" text-anchor="middle">${g.name}</text>`; x+=GG-GAP;});
+// Referenzlinie Oberarzt Stufe 1 über die Facharzt-Stufen
+const a2s1=pos.find(p=>p.g===0&&p.i===0), a3s1=pos.find(p=>p.g===1&&p.i===0), a3s3=pos.find(p=>p.g===1&&p.i===2), a4s2=pos.find(p=>p.g===2&&p.i===1);
+const yref=y(a3s1.v);
+s+=`<line x1="${a2s1.x}" y1="${yref}" x2="${a3s1.x-12}" y2="${yref}" stroke="#7421FC" stroke-width="2.5" stroke-dasharray="9 8"/>`;
+// Direktlabels
+s+=`<text class="el vi" x="${a3s1.x+BW/2}" y="${y(a3s1.v)-12}" text-anchor="middle">${fmt(a3s1.v)} €</text>`;
+s+=`<text class="el vi" x="${a3s3.x+BW/2}" y="${y(a3s3.v)-12}" text-anchor="middle">${fmt(a3s3.v)} €</text>`;
+s+=`<text class="el" x="${a4s2.x+BW/2}" y="${y(a4s2.v)-12}" text-anchor="middle">${fmt(a4s2.v)} €</text>`;
+// Anmerkungen (links oben, über den niedrigen Ä2-Stufen)
+s+=`<text class="note" x="${L+10}" y="${y(11780)}" text-anchor="start">Facharzt Stufe 6 liegt höher: <tspan style="fill:#222831">9.699 €</tspan></text>`;
+s+=`<text class="note" x="${L+10}" y="${y(11780)+32}" text-anchor="start">Wer von dort Oberarzt wird, <tspan style="fill:#7421FC">behält sie.</tspan></text>`;
+svg.innerHTML=s;
+</script>
+</body>
+</html>
