@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Neugründung Karussell (dunkel)</title>
+<style>
+@font-face{font-family:Manrope;font-weight:800;src:url(fonts/manrope-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:500;src:url(fonts/inter-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:600;src:url(fonts/inter-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:700;src:url(fonts/inter-latin-700-normal.woff2) format('woff2')}
+:root{--paper:#14171D;--card:#1E232B;--ink:#F7F7F3;--ink2:#D5D7DC;--meta:#9AA0AB;--rule:#2A2F38;--track:#232830;--vi:#7421FC;--vit:#A26BFF}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#000;font-family:Inter,system-ui,sans-serif;color:var(--ink)}
+.k{position:relative;width:1080px;height:1350px;overflow:hidden;background:var(--paper);margin:0 0 20px 0}
+.grid{position:absolute;inset:-120px;background-image:linear-gradient(rgba(255,255,255,0.06) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.06) 1px,transparent 1px);background-size:60px 60px}
+.rad{position:absolute;width:1000px;height:1000px;border-radius:50%;filter:blur(40px)}
+.rad1{top:-420px;right:-420px;background:radial-gradient(closest-side,rgba(116,33,252,.28),rgba(116,33,252,0))}
+.rad2{bottom:-460px;left:-460px;background:radial-gradient(closest-side,rgba(116,33,252,.20),rgba(116,33,252,0))}
+.spine{position:absolute;left:0;top:0;width:14px;height:1350px;background:var(--vi)}
+.topic{position:absolute;left:104px;top:160px;background:var(--vi);color:#fff;font:800 26px/1 Manrope;letter-spacing:.12em;text-transform:uppercase;padding:15px 22px;border-radius:999px}
+.label{position:absolute;top:150px;right:82px;text-align:right;font:600 27px/1.2 Inter;color:var(--ink2);padding-right:18px;border-right:8px solid var(--vi)}
+.label b{color:var(--ink);font-weight:700}
+.c{position:absolute;left:104px;right:82px;top:290px;bottom:270px}
+.eyebrow{font:800 27px/1.3 Manrope;letter-spacing:.24em;text-transform:uppercase;color:var(--vit);margin-bottom:22px}
+.display{font:800 84px/1.02 Manrope;letter-spacing:-.03em;color:var(--ink)}
+.display .vi{color:var(--vit)}
+.sub{font:600 40px/1.28 Inter;color:var(--ink2);margin-top:28px}
+.foot{position:absolute;left:0;right:0;bottom:0;font:500 24px/1.3 Inter;color:var(--meta)}
+.pill{display:inline-block;background:var(--vi);color:#fff;font:800 108px/1 Manrope;letter-spacing:-.03em;padding:20px 40px;border-radius:32px;font-variant-numeric:tabular-nums;margin-top:10px;white-space:nowrap}
+.split{display:flex;gap:14px;margin-top:24px}
+.box{flex:1 1 0;background:var(--card);border:2px solid var(--rule);border-radius:24px;padding:18px 26px}
+.box .h{font:600 26px/1.2 Inter;color:var(--meta)}
+.box .n{font:800 54px/1.1 Manrope;letter-spacing:-.03em;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.box .n.vi{color:var(--vit)}
+.calc{margin-top:22px;display:flex;flex-direction:column;gap:4px}
+.calc div{display:flex;justify-content:space-between;align-items:center;font:600 32px/1.2 Inter;color:var(--ink2);padding:9px 0;border-bottom:2px solid var(--rule);font-variant-numeric:tabular-nums}
+.calc div span small{display:block;font:500 25px/1.2 Inter;color:var(--meta);margin-top:2px}
+.calc div b{color:var(--ink);font-weight:800;white-space:nowrap;margin-left:20px}
+.calc div.res{border-bottom:none;color:var(--vit);font-weight:800;font-size:40px}
+.calc div.res b{color:var(--vit)}
+.list{margin-top:24px;display:flex;flex-direction:column;gap:10px}
+.item{display:flex;gap:22px;align-items:flex-start;background:var(--card);border:2px solid var(--rule);border-radius:22px;padding:15px 26px;font:600 31px/1.25 Inter;color:var(--ink2)}
+.item .num{flex:0 0 auto;width:52px;height:52px;border-radius:50%;background:var(--vi);color:#fff;font:800 28px/52px Manrope;text-align:center}
+.item b{color:var(--ink);font-weight:700}
+.disc{margin-top:26px;font:500 24px/1.35 Inter;color:var(--meta);border-top:2px solid var(--rule);padding-top:18px}
+.fz{position:absolute;left:104px;right:82px;bottom:150px;height:86px;display:flex;align-items:center;justify-content:space-between}
+.fz img{height:40px;width:auto;display:block}
+.dots{display:flex;gap:10px}.dots i{width:12px;height:12px;border-radius:50%;background:var(--rule);display:block}.dots i.on{background:var(--vit)}
+.wisch{font:600 26px/1 Inter;color:var(--ink2);display:flex;align-items:center;gap:12px}
+.wisch span{width:44px;height:44px;border-radius:50%;background:var(--vi);color:#fff;font:800 26px/44px Manrope;text-align:center}
+</style>
+</head>
+<body>
+
+<div class="k" id="k1"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Für Ärztinnen und Ärzte vor der Praxis</div>
+    <div class="display" style="font-size:92px">Neu gründen statt<br>Praxis kaufen:<br><span class="vi">112.300&nbsp;€ gespart?</span></div>
+    <div class="sub">Was der Kaufpreis bezahlt und was die neue Praxis dafür extra kostet, Zahl für Zahl.</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="wisch">Wischen <span>→</span></div></div>
+</div>
+
+<div class="k" id="k2"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Die eine Zahl</div>
+    <div class="display" style="font-size:76px">Neu gründen kostet im Schnitt:</div>
+    <div class="pill">+37.200&nbsp;€</div>
+    <div class="split">
+      <div class="box"><div class="h">Übernahme Einzelpraxis</div><div class="n">190.300&nbsp;€</div></div>
+      <div class="box"><div class="h">Neugründung Einzelpraxis</div><div class="n vi">227.500&nbsp;€</div></div>
+    </div>
+    <div class="sub" style="font-size:32px;margin-top:22px">Der Kaufpreis fällt weg. Dafür kosten Geräte, Einrichtung, IT und Umbau 176.700&nbsp;€ statt 51.000&nbsp;€.</div>
+    <div class="foot">apoBank/Zi, Existenzgründungsanalyse Hausärzte 2023/2024 (885 Gründungen), Durchschnitte je Gründung</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="wisch">Wischen <span>→</span></div></div>
+</div>
+
+<div class="k" id="k3"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Schritt 1 · Die Investition</div>
+    <div class="display" style="font-size:76px">Was wegfällt, was dazukommt</div>
+    <div class="calc">
+      <div><span>Übernahmepreis<small>Übernahme 112.300 € · Neugründung 0 €</small></span><b>−112.300&nbsp;€</b></div>
+      <div><span>Geräte, Einrichtung, IT, Umbau<small>51.000 € · 176.700 €</small></span><b>+125.700&nbsp;€</b></div>
+      <div><span>Betriebsmittel für den Start<small>27.000 € · 50.800 €</small></span><b>+23.800&nbsp;€</b></div>
+      <div class="res"><span>Neugründung kostet mehr</span><b>+37.200&nbsp;€</b></div>
+    </div>
+    <div class="sub" style="font-size:30px;margin-top:14px">Auch 2022/23 war die Neugründung teurer: 205.800&nbsp;€ gegen 188.200&nbsp;€ für die Übernahme.</div>
+    <div class="foot">apoBank/Zi, Hausärzte 2023/2024 · weitere Investitionen = Geräte, Einrichtung, IT, Modernisierung, Umbau · Vorperiode 2022/23 laut apoBank/Zi</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i></div><div class="wisch">Wischen <span>→</span></div></div>
+</div>
+
+<div class="k" id="k4"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Schritt 2 · Der Patientenstamm</div>
+    <div class="display" style="font-size:76px">Was im Kaufpreis steckt</div>
+    <div class="calc">
+      <div><span>Behandlungsfälle je Hausarzt<small>im Quartal, GKV</small></span><b>856</b></div>
+      <div><span>GKV-Honorar je Hausarzt<small>im Quartal</small></span><b>64.889&nbsp;€</b></div>
+      <div><span>Honorar je Fall</span><b>75,78&nbsp;€</b></div>
+      <div><span>Kaufpreis je Fall<small>112.300 € ÷ 856</small></span><b>131&nbsp;€</b></div>
+      <div class="res"><span>Kaufpreis in GKV-Honorar</span><b>1,7 Quartale</b></div>
+    </div>
+    <div class="sub" style="font-size:30px;margin-top:14px">Die Neugründung startet bei null Fällen. Jedes Quartal ohne vollen Stamm fehlt bis zu 64.889&nbsp;€ Honorar.</div>
+    <div class="foot">KBV-Honorarbericht 2/2024 (Jan. 2026), hausärztlicher Versorgungsbereich, je Arzt in Köpfen · Kaufpreis apoBank/Zi 2023/24 · ohne Privatpatienten</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i></div><div class="wisch">Wischen <span>→</span></div></div>
+</div>
+
+<div class="k" id="k5"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Schritt 3 · Die Anlaufzeit</div>
+    <div class="display" style="font-size:72px">Im Beispiel: zwei Jahre, bis die Praxis voll ist</div>
+    <div class="calc">
+      <div><span>Quartal 1<small>107 Fälle, ein Achtel</small></span><b>8.111&nbsp;€</b></div>
+      <div><span>Quartal 8<small>856 Fälle, voll</small></span><b>64.889&nbsp;€</b></div>
+      <div><span>Jahr 1 zusammen<small>Übernahme: 259.556 €</small></span><b>81.111&nbsp;€</b></div>
+      <div class="res"><span>Jahr 2 zusammen<small style="color:var(--meta)">Übernahme: 259.556 €</small></span><b>210.889&nbsp;€</b></div>
+    </div>
+    <div class="sub" style="font-size:30px;margin-top:14px">Die zwei Jahre sind eine Annahme, keine Statistik. Füllt sich deine Praxis schneller, fehlt dir weniger Honorar.</div>
+    <div class="foot">Beispiel: Fallzahl wächst je Quartal um ein Achtel von 856 (Annahme) · 75,78 € je Fall, KBV 2/2024 · GKV-Honorar vor Praxiskosten</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i></div><div class="wisch">Wischen <span>→</span></div></div>
+</div>
+
+<div class="k" id="k6"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Beispiel · nach zwei Jahren</div>
+    <div class="display" style="font-size:76px">Die neue Praxis liegt 264.000&nbsp;€ hinten</div>
+    <div class="calc">
+      <div><span>Mehr Investition am Start<small>227.500 € statt 190.300 €</small></span><b>−37.200&nbsp;€</b></div>
+      <div><span>Weniger GKV-Honorar, Jahr 1<small>81.111 € statt 259.556 €</small></span><b>−178.445&nbsp;€</b></div>
+      <div><span>Weniger GKV-Honorar, Jahr 2<small>210.889 € statt 259.556 €</small></span><b>−48.667&nbsp;€</b></div>
+      <div class="res"><span>Neugründung nach zwei Jahren</span><b>−264.312&nbsp;€</b></div>
+    </div>
+    <div class="sub" style="font-size:30px;margin-top:14px">Personal und Miete laufen in beiden Praxen ab Tag 1. Privatpatienten sind nicht gerechnet, sie fehlen der neuen Praxis genauso.</div>
+    <div class="foot">Beispiel: Investitionen apoBank/Zi 2023/24 · 64.889 € GKV-Honorar je Hausarzt und Quartal (KBV 2/2024) · Aufbau über acht Quartale (Annahme)</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div><div class="wisch">Wischen <span>→</span></div></div>
+</div>
+
+<div class="k" id="k7"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Merkzettel · selbst nachsehen</div>
+    <div class="display" style="font-size:76px">Drei Zahlen, <span class="vi">drei Fundorte.</span></div>
+    <div class="list" style="margin-top:20px">
+      <div class="item"><span class="num">1</span><span><b>Honorarbescheide der Praxis, die du kaufst:</b> Fälle je Quartal der letzten vier Quartale, nicht „etwa 1.000 Patienten“.</span></div>
+      <div class="item"><span class="num">2</span><span><b>Exposé:</b> Kaufpreis geteilt durch Fälle je Quartal. Der Schnitt liegt bei 131&nbsp;€ je Fall.</span></div>
+      <div class="item"><span class="num">3</span><span><b>Kostenvoranschläge:</b> Geräte, Einrichtung, IT, Umbau. Schnitt: 176.700&nbsp;€ neu, 51.000&nbsp;€ bei Übernahme.</span></div>
+    </div>
+    <div class="foot">Keine&nbsp;Anlage&#8209;/Steuerberatung · Praxiswert und Finanzierung besprichst du mit Steuerberater und Praxisberatung deiner KV</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i></div><div class="wisch">Wischen <span>→</span></div></div>
+</div>
+
+<div class="k" id="k8"><div class="grid"></div><div class="rad rad1"></div><div class="rad rad2"></div><div class="spine"></div>
+  <div class="topic">Neugründung</div><div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="c">
+    <div class="eyebrow">Die Frage zum Schluss</div>
+    <div class="display">Übernehmen oder<br>neu gründen:<br><span class="vi">Was wäre dein Weg?</span></div>
+    <div class="sub">Schreib es in die Kommentare. Und wenn jemand bei dir gerade zwischen Kaufen und Neugründen schwankt, schick ihm das Karussell.</div>
+    <div class="disc">Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.</div>
+  </div>
+  <div class="fz"><img src="logo.png" alt=""><div class="dots"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i></div><div></div></div>
+</div>
+
+</body>
+</html>
