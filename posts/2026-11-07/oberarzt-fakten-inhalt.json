@@ -1,0 +1,16 @@
+{
+ "titel": {"oben": "Fakten zum", "kern": "Oberarztgehalt"},
+ "fakten": [
+  {"text": "Nach zwölf Facharztjahren bringt dir der Sprung zum Oberarzt <m>drei Jahre lang 0&nbsp;€.</m>",
+   "fuss": "Facharzt Stufe 6 (9.698,91&nbsp;€) liegt 239&nbsp;€ über dem Oberarzt-Einstieg; § 20 Abs. 4 TV-Ärzte/VKA hält das alte Entgelt, bis Oberarzt-Stufe 2 kommt. Das ist keine Rechtsberatung und keine&nbsp;Anlage&#8209;/Steuerberatung."},
+  {"text": "Nach bis zu drei Facharztjahren bringt dir der Sprung <m>1.907&nbsp;€ mehr im Monat.</m>",
+   "fuss": "Facharzt Stufe 1 (7.552,19&nbsp;€) gegen Oberarzt Stufe 1 (9.459,56&nbsp;€), TV-Ärzte/VKA ab 1.6.2026, brutto. Das ist keine Rechtsberatung und keine&nbsp;Anlage&#8209;/Steuerberatung."},
+  {"text": "Der Oberarzt-Einstieg ist für alle gleich: <m>9.459,56&nbsp;€ brutto</m> im Monat.",
+   "fuss": "Entgeltgruppe Ä3 Stufe 1, Tabelle ab 1.6.2026, gültig bis 31.12.2026 und gekündigt (Marburger Bund). Das ist keine Rechtsberatung und keine&nbsp;Anlage&#8209;/Steuerberatung."},
+  {"text": "Ein Wochenendtag Rufbereitschaft bringt dir <m>217,56&nbsp;€ pauschal,</m> Einsätze kommen dazu.",
+   "fuss": "§ 11 Abs. 3 TV-Ärzte/VKA: Samstag, Sonntag, Feiertag das Vierfache des Stundenanteils (9.459,56&nbsp;€ ÷ 173,92 = 54,39&nbsp;€), Montag bis Freitag das Zweifache (108,78&nbsp;€). Das ist keine Rechtsberatung und keine&nbsp;Anlage&#8209;/Steuerberatung."},
+  {"text": "Oberarzt im Tarif bist du erst, wenn dir die Klinik <m>die Verantwortung ausdrücklich überträgt.</m>",
+   "fuss": "§ 16 c TV-Ärzte/VKA: medizinische Verantwortung für selbstständige Teil- oder Funktionsbereiche, ausdrücklich übertragen. Das ist keine Rechtsberatung und keine&nbsp;Anlage&#8209;/Steuerberatung."}
+ ],
+ "schluss_p": "Schick es einer Kollegin, die auf die Oberarztstelle wartet, und speicher es dir fürs nächste Gehaltsgespräch."
+}
