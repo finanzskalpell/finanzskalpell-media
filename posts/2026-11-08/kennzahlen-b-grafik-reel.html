@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Animierte Grafik · Praxiskosten 2021–2024 (Paar 16b, Kennzahlen B)</title>
+<style>
+@font-face{font-family:Manrope;font-weight:600;src:url(fonts/manrope-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Manrope;font-weight:800;src:url(fonts/manrope-latin-800-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:500;src:url(fonts/inter-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:600;src:url(fonts/inter-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:700;src:url(fonts/inter-latin-700-normal.woff2) format('woff2')}
+:root{--vi:#7421FC;--ink:#222831;--ink2:#39414E;--meta:#69707D;--paper:#F7F7F3;--rule:#DEDDD6;--track:#E4E3DA;--ctx:#8A909B}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--paper)}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:var(--paper);font-family:Inter,system-ui,sans-serif;color:var(--ink)}
+.grid{position:absolute;inset:-120px;background-image:linear-gradient(rgba(34,40,49,0.055) 1px,transparent 1px),linear-gradient(90deg,rgba(34,40,49,0.055) 1px,transparent 1px);background-size:60px 60px}
+.rad{position:absolute;width:1100px;height:1100px;border-radius:50%;filter:blur(40px)}
+.rad1{top:-420px;right:-420px;background:radial-gradient(closest-side,rgba(116,33,252,.13),rgba(116,33,252,0))}
+.rad2{bottom:-460px;left:-460px;background:radial-gradient(closest-side,rgba(116,33,252,.10),rgba(116,33,252,0))}
+.spine{position:absolute;left:0;top:0;width:14px;height:1920px;background:var(--vi)}
+.label{position:absolute;top:262px;right:114px;text-align:right;font:600 30px/1.2 Inter;color:var(--ink2);padding-right:20px;border-right:8px solid var(--vi)}
+.label b{color:var(--ink);font-weight:700}
+.topic{position:absolute;left:118px;top:276px;background:var(--vi);color:#fff;font:800 27px/1 Manrope;letter-spacing:.12em;text-transform:uppercase;padding:16px 24px;border-radius:999px;white-space:nowrap}
+.sc{position:absolute;left:118px;right:122px;top:440px;height:1030px}
+.eyebrow{font:800 30px/1.3 Manrope;letter-spacing:.26em;text-transform:uppercase;color:var(--vi);margin-bottom:26px}
+.display{font:800 78px/1.04 Manrope;letter-spacing:-.03em;color:var(--ink)}
+.display .vi{color:var(--vi)}
+.sub{font:600 34px/1.3 Inter;color:var(--ink2);margin-top:18px}
+.legend{display:flex;gap:34px;margin-top:24px;font:600 30px/1 Inter;color:var(--ink2)}
+.legend span{display:flex;align-items:center;gap:12px}
+.legend i{display:block;width:40px;height:8px;border-radius:4px;background:var(--vi)}
+.legend i.ctx{background:var(--ctx)}
+.chart{margin-top:12px;width:840px;height:380px}
+.chart svg{width:840px;height:380px;display:block;overflow:visible}
+.ax{font:600 26px Inter;fill:var(--meta)}
+.grl{stroke:#DEDDD6;stroke-width:1.5}
+.ln{fill:none;stroke-width:8;stroke-linejoin:round;stroke-linecap:round}
+.el{font:800 36px Manrope;fill:var(--ink);letter-spacing:-.02em}
+.el2{font:700 26px Inter;fill:var(--meta);letter-spacing:0}
+.note{font:700 28px Inter;fill:var(--ink2)}
+.foot{position:absolute;left:0;right:0;bottom:0;font:500 25px/1.3 Inter;color:var(--meta)}
+.an{opacity:0}
+.prog{position:absolute;left:110px;right:114px;top:1494px;height:6px;background:var(--track);border-radius:3px}
+.prog .pb{height:100%;width:0;background:var(--vi);border-radius:3px}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="grid" id="grid"></div><div class="rad rad1" id="rad1"></div><div class="rad rad2" id="rad2"></div><div class="spine"></div>
+  <div class="label">Finanzen von und für<br>Ärztinnen und <b>Ärzte</b></div>
+  <div class="topic">Praxiskosten</div>
+
+  <section class="sc" id="s0">
+    <div class="eyebrow">Grafik des Tages · Destatis</div>
+    <div class="display">Die Kosten stiegen<br><span class="vi">schneller als die Einnahmen</span></div>
+    <div class="sub an" id="sub">Je Arztpraxis, 2021 bis 2024, Index 2021 = 100</div>
+    <div class="legend an" id="lgd"><span><i></i>Aufwendungen</span><span><i class="ctx"></i>Einnahmen</span></div>
+    <div class="chart"><svg id="svg" viewBox="0 0 840 380">
+      <defs><clipPath id="clip"><rect id="cliprect" x="0" y="-40" width="0" height="480"/></clipPath></defs>
+      <g id="gridl"></g>
+      <g clip-path="url(#clip)"><path id="pE" class="ln" stroke="#8A909B" d=""/><path id="pA" class="ln" stroke="#7421FC" d=""/></g>
+      <g id="pts"></g>
+      <circle id="dE" r="11" fill="#8A909B" stroke="#F7F7F3" stroke-width="4"/>
+      <circle id="dA" r="12" fill="#7421FC" stroke="#F7F7F3" stroke-width="4"/>
+      <text id="tA" class="el" text-anchor="start"><tspan id="tA1"></tspan> <tspan class="el2" id="tA2"></tspan></text>
+      <text id="tE" class="el" text-anchor="start"><tspan id="tE1"></tspan> <tspan class="el2" id="tE2"></tspan></text>
+      <text id="t0" class="el" text-anchor="start">100</text>
+      <g id="n1" opacity="0"><text class="note" text-anchor="start" id="n1a"></text></g>
+      <g id="n2" opacity="0"><text class="note" text-anchor="middle" id="n2a"></text></g>
+    </svg></div>
+    <div class="foot an" id="foot">Quelle: Statistisches Bundesamt (Destatis), Kostenstrukturstatistik im medizinischen Bereich, Arztpraxen inkl. BAG und MVZ, Durchschnitt je Praxis; Pressemitteilung Nr. 262 vom 23.7.2026 und Meldungen zu 2021–2023. Index eigene Rechnung: Einnahmen 756.000 → 854.000 €, Aufwendungen 420.000 → 516.000 € · keine&nbsp;Anlage&#8209;/Steuerberatung</div>
+  </section>
+
+  <div class="prog" id="prog"><div class="pb" id="pb"></div></div>
+</div>
+<script>
+const SC=[{in:0,out:12.0}];
+const T=12.0;
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const seg=(t,a,d)=>clamp((t-a)/d,0,1);
+const out3=t=>1-Math.pow(1-t,3);
+const inout=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const $=id=>document.getElementById(id);
+const f1=n=>n.toLocaleString('de-DE',{maximumFractionDigits:0});
+function rise(el,p,dy=30){el.style.opacity=p;el.style.transform=`translateY(${(1-p)*dy}px)`;}
+function pulseSvg(el,lt,at){const p=seg(lt,at,0.34);const s=1+0.07*Math.sin(p*Math.PI);const x=+el.getAttribute('x'),y=+el.getAttribute('y');el.setAttribute('transform',`translate(${x} ${y}) scale(${s}) translate(${-x} ${-y})`);}
+// Daten: Destatis, Kostenstrukturstatistik, Arztpraxen inkl. BAG und MVZ, Durchschnitt je Praxis (wie grafik.html)
+const years=[2021,2022,2023,2024];
+const einn=[756,796,804,854];   // Tsd. € je Praxis, Destatis
+const aufw=[420,466,493,516];
+const idx=(arr)=>arr.map(v=>v/arr[0]*100);
+const iE=idx(einn), iA=idx(aufw);
+const W=840,H=380,L=90,R=186,TP=30,B=46;
+const YMIN=95,YMAX=131,YT=[100,110,120]; // Achse im Reel bis 131 statt 127, damit die Anmerkung oben Platz hat
+const N=years.length-1;
+const x=i=>L+(W-L-R)*i/N, y=v=>TP+(H-TP-B)*(1-(v-YMIN)/(YMAX-YMIN));
+(function build(){
+  let g='';YT.forEach(v=>{g+=`<line class="grl" x1="${L}" y1="${y(v)}" x2="${W-R+24}" y2="${y(v)}"/><text class="ax" x="${L-16}" y="${y(v)+9}" text-anchor="end">${v}</text>`;});
+  years.forEach((yr,i)=>{g+=`<text class="ax" x="${x(i)}" y="${H-10}" text-anchor="middle">${yr}</text>`;});
+  $('gridl').innerHTML=g;
+  const path=arr=>arr.map((v,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(v).toFixed(1)).join(' ');
+  $('pE').setAttribute('d',path(iE)); $('pA').setAttribute('d',path(iA));
+  // Punkte an allen vier Jahren (wie in der Grafik des Tages), erscheinen, sobald die Linie sie erreicht
+  let p='';years.forEach((yr,i)=>{
+    p+=`<circle id="pE${i}" cx="${x(i)}" cy="${y(iE[i])}" r="9" fill="#8A909B" stroke="#F7F7F3" stroke-width="3" opacity="0"/>`;
+    p+=`<circle id="pA${i}" cx="${x(i)}" cy="${y(iA[i])}" r="9" fill="#7421FC" stroke="#F7F7F3" stroke-width="3" opacity="0"/>`;
+  });
+  $('pts').innerHTML=p;
+  $('t0').setAttribute('x',x(0)+16); $('t0').setAttribute('y',y(100)+42);
+  // Anmerkungen (höchstens zwei), Wortlaut wie grafik.html
+  $('n1a').setAttribute('x',x(0)+20); $('n1a').setAttribute('y',TP+22); $('n1a').textContent='2023: Kosten +17 %, Einnahmen +6 %';
+  $('n2a').setAttribute('x',x(2)+40); $('n2a').setAttribute('y',y(100)+38); $('n2a').textContent='2024: Einnahmen +6,2 %, Kosten +4,7 %';
+})();
+// Interpolation entlang der Jahre
+function at(arr,q){const i=Math.floor(q),f=q-i;if(i>=N)return arr[N];return arr[i]+(arr[i+1]-arr[i])*f;}
+const D0=0.6, DD=7.4; // Linien zeichnen sich 0,6–8,0 s
+function seek(t){
+  t=clamp(t,0,T);
+  $('grid').style.transform=`translate(${(t*6)%60}px,${(t*4)%60}px)`;
+  $('rad1').style.opacity=0.85+0.15*Math.sin(t*0.9);$('rad2').style.opacity=0.85+0.15*Math.sin(t*0.9+2);
+  $('pb').style.width=(t/T*100)+'%';
+  rise($('sub'),out3(seg(t,0.4,0.5)),20); rise($('lgd'),out3(seg(t,0.55,0.5)),20); rise($('foot'),out3(seg(t,0.5,0.5)),16);
+  const p=inout(seg(t,D0,DD)); const q=N*p;
+  $('cliprect').setAttribute('width',t<D0?'0':(x(q)+6).toFixed(1));
+  const vA=at(iA,q), vE=at(iE,q);
+  $('dA').setAttribute('cx',x(q).toFixed(1)); $('dA').setAttribute('cy',y(vA).toFixed(1));
+  $('dE').setAttribute('cx',x(q).toFixed(1)); $('dE').setAttribute('cy',y(vE).toFixed(1));
+  const on=t>=D0;
+  $('dA').style.opacity=on?1:0; $('dE').style.opacity=on?1:0;
+  // Laufende Werte am Linienende: Index und Veränderung gegen 2021 (Endstand 123 +23 % und 113 +13 %)
+  $('tA').setAttribute('x',x(q)+22); $('tA').setAttribute('y',y(vA)+12);
+  $('tE').setAttribute('x',x(q)+22); $('tE').setAttribute('y',y(vE)+12);
+  $('tA1').textContent=f1(vA); $('tA2').textContent='+'+f1(vA-100)+' %';
+  $('tE1').textContent=f1(vE); $('tE2').textContent='+'+f1(vE-100)+' %';
+  $('tA').style.opacity=on?1:0; $('tE').style.opacity=on?clamp((y(vE)-y(vA)-28)/14,0,1):0; // graues Label erst, wenn die Linien auseinanderliegen
+  $('t0').style.opacity=q>0.35?1:0;
+  years.forEach((yr,i)=>{const o=q>=i-0.01&&on?1:0;$('pA'+i).setAttribute('opacity',o);$('pE'+i).setAttribute('opacity',o);});
+  if(seg(t,8.0,0.34)>0){pulseSvg($('tA'),t,8.0);pulseSvg($('tE'),t,8.0);} else {$('tA').removeAttribute('transform');$('tE').removeAttribute('transform');}
+  $('n1').setAttribute('opacity',out3(seg(t,8.5,0.5)).toFixed(3));
+  $('n2').setAttribute('opacity',out3(seg(t,9.6,0.5)).toFixed(3));
+}
+window.seek=seek;window.T=T;window.SC=SC;seek(0);
+</script>
+</body>
+</html>

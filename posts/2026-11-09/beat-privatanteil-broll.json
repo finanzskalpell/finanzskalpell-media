@@ -1,20 +1,21 @@
 {
- "track": "micro-house-1.wav",
- "bpm": 124.74,
- "beat": 0.481,
- "bar": 1.924,
- "start": 15.685,
- "start_used": 15.685,
- "abschnitt_rel_db": 0.27,
- "T": 9.62,
- "takte": 5,
- "downbeats_rel": [
-  1.924,
-  3.848,
-  5.772,
-  7.696
+ "track": "dubbiger-afro-house-2.wav",
+ "bpm": 120.06,
+ "beat": 0.4997,
+ "bar": 1.999,
+ "first_downbeat": 0.492,
+ "start": 32.476,
+ "abschnitt_rel_db": 0.35,
+ "start_used": 32.476,
+ "lufs": -14.55,
+ "datum_mix": "2026-11-05 abends",
+ "T": 9.995,
+ "textschritte": [
+  1.999,
+  3.998,
+  5.997,
+  7.996
  ],
  "clip": "broll-ultraschall-bauch-allgemeinmedizin.mp4",
- "variante": "A",
- "gemischt": "auf dem Mac (device_bash), 5.11.2026"
+ "variante": "A"
 }
