@@ -1,0 +1,21 @@
+{
+ "track": "lofi-house-2.wav",
+ "bpm": 117.97,
+ "beat": 0.5086,
+ "bar": 2.0344,
+ "start": 17.507,
+ "start_used": 17.507,
+ "abschnitt_rel_db": 0.05,
+ "lufs": -14.63,
+ "T": 10.172,
+ "takte": 5,
+ "downbeats_rel": [
+  2.034,
+  4.069,
+  6.103,
+  8.138
+ ],
+ "clip": "broll-korridor-02.mp4",
+ "clip_hold_last_frame_s": 0.17,
+ "variante": "C"
+}
