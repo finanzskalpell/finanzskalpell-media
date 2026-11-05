@@ -1,0 +1,20 @@
+{
+ "track": "micro-house-1.wav",
+ "bpm": 124.74,
+ "beat": 0.481,
+ "bar": 1.924,
+ "start": 15.685,
+ "start_used": 15.685,
+ "abschnitt_rel_db": 0.27,
+ "T": 9.62,
+ "takte": 5,
+ "downbeats_rel": [
+  1.924,
+  3.848,
+  5.772,
+  7.696
+ ],
+ "clip": "broll-ultraschall-bauch-allgemeinmedizin.mp4",
+ "variante": "A",
+ "gemischt": "auf dem Mac (device_bash), 5.11.2026"
+}
