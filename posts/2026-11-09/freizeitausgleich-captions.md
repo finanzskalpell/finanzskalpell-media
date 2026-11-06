@@ -4,11 +4,11 @@ Quelle: Paar-Doc „Paar 37 — Freizeitausgleich“, Anhang captions.md (4.11.2
 
 ## Caption Reel
 
-Der freie Tag nach dem Bereitschaftsdienst kommt nicht unbedingt obendrauf. Im Tarifvertrag der kommunalen Kliniken darf die Klinik für die gesetzliche Ruhezeit Freizeit geben und dafür einen Teil vom Dienstgeld nicht auszahlen. Frei hast du wegen der Ruhezeit ohnehin, die Frage ist nur, ob diese Stunden vom Dienstgeld abgehen. Bei einem Facharzt im ersten Facharztjahr sind das für einen Arbeitstag 351 Euro brutto weniger für den Dienst, in der Assistenzzeit rund 295 Euro. Das Monatsgehalt läuft weiter. Wie es bei dir läuft, siehst du an den bezahlten Dienststunden auf deinem Gehaltszettel.
+Der freie Tag nach dem Bereitschaftsdienst kommt nicht unbedingt obendrauf. Im Tarifvertrag der kommunalen Kliniken darf die Klinik für die gesetzliche Ruhezeit Freizeit geben und dafür einen Teil der Dienstvergütung nicht auszahlen. Frei hast du wegen der Ruhezeit ohnehin, die Frage ist nur, ob diese Stunden von der Dienstvergütung abgehen. Bei einem Facharzt im ersten Facharztjahr sind das für einen Arbeitstag 351 Euro brutto weniger für den Dienst, in der Assistenzzeit rund 295 Euro. Das Monatsgehalt läuft weiter. Wie es bei dir läuft, siehst du an den bezahlten Dienststunden auf deinem Gehaltszettel.
 
 Wie ist das bei dir: A, der Dienst wird voll bezahlt, B, die Klinik zieht die freien Stunden ab, oder C, du weißt es gar nicht?
 
-Wundert sich eine Kollegin über ihr Dienstgeld? Dann schick ihr das.
+Wundert sich eine Kollegin über ihre Dienstvergütung? Dann schick ihr das.
 
 Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und stellen keine Anlageberatung, Steuerberatung oder sonstige individuelle Finanzberatung dar. Kapitalanlagen sind mit Risiken verbunden.
 
@@ -16,9 +16,9 @@ Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und s
 
 ## Caption Karussell
 
-Wird dein Bereitschaftsdienst eigentlich voll ausgezahlt? Im Tarifvertrag der kommunalen Kliniken zählen in der Dienststufe I nur 70 Prozent des Dienstes als Arbeitszeit, bei 16 Stunden also 11,2. Für einen Facharzt im ersten Facharztjahr sind das mal 43,83 Euro genau 490,90 Euro Dienstgeld.
+Wird dein Bereitschaftsdienst eigentlich voll ausgezahlt? Im Tarifvertrag der kommunalen Kliniken zählen in der Dienststufe I nur 70 Prozent des Dienstes als Arbeitszeit, bei 16 Stunden also 11,2. Für einen Facharzt im ersten Facharztjahr sind das mal 43,83 Euro genau 490,90 Euro Dienstvergütung.
 
-Nach dem Dienst brauchst du elf Stunden Ruhezeit, und damit fällt dein normaler Arbeitstag aus. Frei hast du also so oder so. Die Klinik darf diese Zeit aber als Freizeit rechnen und vom Dienstgeld abziehen. Bei acht Stunden sind das 350,64 Euro weniger, es bleiben 140,26 Euro. Der Zuschlag von 15 Prozent mit 105,19 Euro und der Nachtzuschlag mit 65,75 Euro bleiben Geld, dein Monatsgehalt läuft auch weiter. Das Bundesarbeitsgericht hat 2010 entschieden, dass die Klinik dafür die Ruhezeit nutzen darf. Mehr Freizeit als für die Ruhezeit nötig gibt es nur, wenn du einverstanden bist.
+Nach dem Dienst brauchst du elf Stunden Ruhezeit, und damit fällt dein normaler Arbeitstag aus. Frei hast du also so oder so. Die Klinik darf diese Zeit aber als Freizeit rechnen und von der Dienstvergütung abziehen. Bei acht Stunden sind das 350,64 Euro weniger, es bleiben 140,26 Euro. Der Zuschlag von 15 Prozent mit 105,19 Euro und der Nachtzuschlag mit 65,75 Euro bleiben Geld, dein Monatsgehalt läuft auch weiter. Das Bundesarbeitsgericht hat 2010 entschieden, dass die Klinik dafür die Ruhezeit nutzen darf. Mehr Freizeit als für die Ruhezeit nötig gibt es nur, wenn du einverstanden bist.
 
 Bei zwölf Diensten im Jahr geht es um 4.208 Euro brutto.
 
@@ -44,9 +44,9 @@ Hinweis: Unsere Inhalte dienen ausschließlich der allgemeinen Information und s
 
 (Für das Abendformat an Tag +14, das Karussell als PDF. Klinik- und Tarifthema, deshalb unverändert die Karussell-Caption; der erste Satz spricht angestellte Ärztinnen und Ärzte schon an.)
 
-Wird dein Bereitschaftsdienst eigentlich voll ausgezahlt? Im Tarifvertrag der kommunalen Kliniken zählen in der Dienststufe I nur 70 Prozent des Dienstes als Arbeitszeit, bei 16 Stunden also 11,2. Für einen Facharzt im ersten Facharztjahr sind das mal 43,83 Euro genau 490,90 Euro Dienstgeld.
+Wird dein Bereitschaftsdienst eigentlich voll ausgezahlt? Im Tarifvertrag der kommunalen Kliniken zählen in der Dienststufe I nur 70 Prozent des Dienstes als Arbeitszeit, bei 16 Stunden also 11,2. Für einen Facharzt im ersten Facharztjahr sind das mal 43,83 Euro genau 490,90 Euro Dienstvergütung.
 
-Nach dem Dienst brauchst du elf Stunden Ruhezeit, und damit fällt dein normaler Arbeitstag aus. Frei hast du also so oder so. Die Klinik darf diese Zeit aber als Freizeit rechnen und vom Dienstgeld abziehen. Bei acht Stunden sind das 350,64 Euro weniger, es bleiben 140,26 Euro. Der Zuschlag von 15 Prozent mit 105,19 Euro und der Nachtzuschlag mit 65,75 Euro bleiben Geld, dein Monatsgehalt läuft auch weiter. Das Bundesarbeitsgericht hat 2010 entschieden, dass die Klinik dafür die Ruhezeit nutzen darf. Mehr Freizeit als für die Ruhezeit nötig gibt es nur, wenn du einverstanden bist.
+Nach dem Dienst brauchst du elf Stunden Ruhezeit, und damit fällt dein normaler Arbeitstag aus. Frei hast du also so oder so. Die Klinik darf diese Zeit aber als Freizeit rechnen und von der Dienstvergütung abziehen. Bei acht Stunden sind das 350,64 Euro weniger, es bleiben 140,26 Euro. Der Zuschlag von 15 Prozent mit 105,19 Euro und der Nachtzuschlag mit 65,75 Euro bleiben Geld, dein Monatsgehalt läuft auch weiter. Das Bundesarbeitsgericht hat 2010 entschieden, dass die Klinik dafür die Ruhezeit nutzen darf. Mehr Freizeit als für die Ruhezeit nötig gibt es nur, wenn du einverstanden bist.
 
 Bei zwölf Diensten im Jahr geht es um 4.208 Euro brutto.
 
