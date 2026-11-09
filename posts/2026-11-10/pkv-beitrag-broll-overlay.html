@@ -1,0 +1,82 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><title>B-Roll B – Ansprache + Liste · Website-Design 2026</title><style>
+@font-face{font-family:Inter;font-weight:500;src:url(fonts/inter-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:600;src:url(fonts/inter-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:700;src:url(fonts/inter-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:800;src:url(fonts/inter-latin-800-normal.woff2) format('woff2')}
+/* Website-Design 2026 (9.11.2026) auf Fassung 2: Inter, Lila #441196 statt Schiefergrau, Beträge auf weißen Pillen,
+   Marker im Hook, „Ärztinnen und Ärzte“ fett, Ergebnis-/Schlusskasten weiß. Schutzzonen unverändert:
+   oben 0–260 frei, unten ab 1440 frei, rechts ab x 780 frei unterhalb y 760; alles Sichtbare in 84–996 × 260–1440. */
+:root{--vi:#7421FC;--vi2:#441196;--lil:#CDB6FF;--box:rgba(68,17,150,.80)}
+*{box-sizing:border-box;margin:0;padding:0}html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+#stage{position:relative;width:1080px;height:1920px;font-family:Inter,system-ui,sans-serif;color:#fff}
+.gtop{position:absolute;left:0;right:0;top:0;height:760px;background:linear-gradient(180deg,rgba(30,8,70,.60),rgba(30,8,70,.34) 55%,rgba(30,8,70,0))}
+.gmid{position:absolute;left:0;right:0;top:700px;height:800px;background:linear-gradient(180deg,rgba(30,8,70,0),rgba(30,8,70,.26) 25%,rgba(30,8,70,.26) 75%,rgba(30,8,70,0))}
+.head{position:absolute;left:84px;right:84px;top:272px;display:flex;align-items:center;justify-content:space-between}
+.topic{background:linear-gradient(90deg,#7421FC,#441196);color:#fff;font:800 26px/1 Inter;letter-spacing:.12em;text-transform:uppercase;padding:16px 24px;border-radius:999px;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.label{text-align:right;font:600 30px/1.2 Inter;color:#fff;padding-right:20px;border-right:8px solid #fff;text-shadow:0 2px 14px rgba(0,0,0,.6),0 1px 3px rgba(0,0,0,.5)}
+.label b{font-weight:800}
+.ki{position:absolute;right:48px;top:56px;background:rgba(68,17,150,.82);color:#fff;font:600 24px/1 Inter;letter-spacing:.04em;padding:12px 18px;border-radius:999px;border:1.5px solid rgba(255,255,255,.35)}
+.hook{position:absolute;left:84px;right:84px;top:400px}
+.hook.box .big{display:inline-block;background:var(--box);padding:20px 30px 24px;border-radius:26px;backdrop-filter:blur(8px)}
+.big{font:800 84px/1.08 Inter;letter-spacing:-.04em;color:#fff;text-shadow:0 2px 16px rgba(0,0,0,.35)}
+.hook.box .big{text-shadow:none}
+.big .vi{color:var(--lil)}.line{display:block}.an{opacity:0}
+/* Marker: <span class="mk">Schlüsselwort</span> im Hook; das Skript baut daraus den weißen Marker, der sich ab 0,15 s über das Wort zieht */
+.mkw{position:relative;display:inline-block;margin:0 .14em 0 .1em}
+.mkbg{position:absolute;left:-10px;top:.05em;height:1.14em;width:0;border-radius:16px;background:#fff;overflow:hidden;white-space:nowrap;box-shadow:0 10px 26px rgba(10,0,40,.35)}
+.mkt{position:absolute;left:10px;top:-.05em;color:#441196;text-shadow:none}
+/* Inhaltsblock: Kästen gehören zur Zeile, höchstens drei zugleich, rechte Kante ≤ 780 px; Abstand per margin-top, damit er beim Einklappen mitschrumpft */
+.story{position:absolute;left:84px;top:780px;width:696px;display:flex;flex-direction:column;gap:0;align-items:flex-start}
+.story>*{margin-top:14px}.story>*:first-child{margin-top:0}
+.st,.two,.it,.save{background:var(--box);border-radius:20px;padding:14px 24px;backdrop-filter:blur(8px);box-shadow:0 10px 28px rgba(0,0,0,.22);font:700 42px/1.22 Inter;letter-spacing:-.01em;color:#fff;max-width:696px}
+.st.q{font:800 54px/1.1 Inter;letter-spacing:-.03em}
+.st.a{font:800 44px/1.1 Inter;letter-spacing:-.03em}
+em,.two b,.it b,.st.d b{font-style:normal;font-weight:800;white-space:nowrap;background:#fff;color:#441196;border-radius:12px;padding:0 .2em;display:inline-block;line-height:1.18}
+.st.a small{display:block;font:600 28px/1.3 Inter;color:#fff;letter-spacing:0;margin-top:10px}
+/* Ergebnis- und Schlusskasten weiß wie die Ergebniszeilen der anderen Formate */
+.st.end,.st.vi,.st.schluss,.save,.two.cta{background:#fff;color:#0F172A;box-shadow:0 14px 34px rgba(10,0,40,.35)}
+.st.end small,.st.vi small{color:#475569}
+.st.end em,.st.vi em{background:linear-gradient(90deg,#7421FC,#441196);color:#fff}
+.k{color:#7421FC}
+.foot{position:absolute;left:84px;width:696px;bottom:480px;font:500 26px/1.3 Inter;color:#fff;background:rgba(68,17,150,.72);border-radius:14px;padding:10px 18px;backdrop-filter:blur(8px)}
+.hook .big{font-size:66px}
+.it{display:flex;gap:20px;align-items:center;font:700 36px/1.2 Inter;padding:16px 22px}
+.it .n{flex:0 0 auto;width:56px;height:56px;border-radius:50%;background:#fff;color:#441196;display:flex;align-items:center;justify-content:center;font:800 30px/1 Inter}
+.save{font:700 34px/1.28 Inter}
+</style></head>
+<!-- Variante B – Ansprache + Liste, Website-Design 2026 (9.11.2026) auf Fassung 2 (Schutzzonen 260/1440/780). Beispieltexte ersetzen, Struktur, Zeiten und Zonen beibehalten. Marker: im Hook ein Schlüsselwort in <span class="mk">…</span>. data-out immer 0,4 s vor dem nächsten Takt. Prüfung: node safezone.js <datei>. -->
+<body><div id="stage"><div class="gtop"></div><div class="gmid"></div>
+<div class="head an" data-in="-1"><div class="topic">PKV-Beitrag</div><div class="label">Finanzen von und für<br><b>Ärztinnen und Ärzte</b></div></div><div class="ki an" data-in="-1">KI-generiert</div>
+<div class="hook box"><div class="big"><span class="line an" data-in="-1">Wenn du privat</span><span class="line an" data-in="-1">versichert bist:</span><span class="line an" data-in="-1">Schau auf deinen <span class="mk">Beitrag</span>.</span></div></div>
+<div class="story">
+<div class="it an" data-in="2.272"><span class="n">1</span><span>Ohne Beihilfe steigt dein Beitrag im Januar im Schnitt um <b>15,3&nbsp;%</b>.</span></div>
+<div class="it an" data-in="4.544"><span class="n">2</span><span>Mit Beihilfe steigt er im Schnitt um <b>11,4&nbsp;%</b>.</span></div>
+<div class="it an" data-in="6.816"><span class="n">3</span><span>Betroffen sind <b>rund 53&nbsp;%</b> aller Privatversicherten.</span></div>
+<div class="save an" data-in="9.088"><span class="k">Teile das</span> mit Kolleginnen und Kollegen, die privat versichert sind.</div>
+</div>
+<div class="foot an" data-in="2.272">Quelle: PKV-Verband, Beitragsanpassungen zum 1.1.2027; dein Tarif kann abweichen · keine Anlage&#8209;/Steuerberatung</div>
+</div><script>
+window.T=10.6;
+// Website-Design 2026 (9.11.2026): Einblenden 0,4 s auf den Takt; Ausblenden 0,35 s und dabei weich einklappen
+// (Höhe, Innenabstand, Abstand), damit die folgenden Kästen nachrutschen statt zu springen.
+// Regel: data-out liegt 0,4 s VOR dem Takt, auf dem der nächste Kasten kommt (data-in), damit nie mehr als drei
+// Kästen gleichzeitig stehen und der Stapel die Fußzeile nicht berührt.
+document.querySelectorAll('.hook .mk').forEach(m=>{const t=m.innerHTML;
+  m.outerHTML=`<span class="mkw"><span class="vi" style="color:inherit">${t}</span><span class="mkbg"><span class="mkt">${t}</span></span></span>`;});
+const mks=[...document.querySelectorAll('.mkbg')];
+const els=[...document.querySelectorAll('.an')].map(e=>{const cs=getComputedStyle(e);
+  return {e,ti:parseFloat(e.dataset.in),to:e.dataset.out?parseFloat(e.dataset.out):Infinity,
+    h:e.offsetHeight,pt:parseFloat(cs.paddingTop),pb:parseFloat(cs.paddingBottom),mt:parseFloat(cs.marginTop)};});
+const ease=x=>1-Math.pow(1-x,3), io=x=>x<.5?2*x*x:1-Math.pow(-2*x+2,2)/2;
+window.seek=t=>{for(const o of els){const {e,ti,to}=o;
+  const pin=Math.max(0,Math.min(1,(t-ti)/0.4)), q=ease(pin);
+  const pout=Math.max(0,Math.min(1,(t-to)/0.35)), r=1-io(pout);
+  e.style.opacity=q*(1-ease(pout)); e.style.transform=`translateY(${(1-q)*26}px)`;
+  if(pout>0){e.style.overflow='hidden';e.style.height=(o.h*r)+'px';e.style.paddingTop=(o.pt*r)+'px';e.style.paddingBottom=(o.pb*r)+'px';e.style.marginTop=(o.mt*r)+'px';}
+  else{e.style.overflow='';e.style.height='';e.style.paddingTop='';e.style.paddingBottom='';e.style.marginTop='';}
+  e.style.display=(pout>=1)?'none':'';
+ }
+ const m=ease(Math.max(0,Math.min(1,(t-0.15)/0.55))); mks.forEach(k=>k.style.width=`calc(${m*100}% + ${16*m}px)`);
+};
+window.seek(0);
+</script></body></html>
