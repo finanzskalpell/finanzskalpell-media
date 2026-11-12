@@ -1,0 +1,24 @@
+{
+ "track": "slow-reflective-2.wav",
+ "bpm": 114.29,
+ "beat": 0.525,
+ "bar": 2.0999,
+ "start_beat_py": 47.224,
+ "start_used": 46.924,
+ "versatz_s": 0.3,
+ "dauer_s": 10.6,
+ "downbeats_im_reel_s": [
+  0.3,
+  2.4,
+  4.5,
+  6.6,
+  8.7
+ ],
+ "textschritte_s": [
+  2.4,
+  4.5,
+  6.6,
+  8.7
+ ],
+ "lufs": -14.1
+}
