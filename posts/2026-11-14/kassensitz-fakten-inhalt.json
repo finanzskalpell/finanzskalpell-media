@@ -1,0 +1,32 @@
+{
+ "thema": "Kassensitz",
+ "titel": {
+  "oben": "Fakten zum",
+  "kern": "Kassensitz"
+ },
+ "titel_sub": "Was im Gesetz steht, wenn der Planungsbereich voll ist.",
+ "fakten": [
+  {
+   "text": "Ab <m>110 % Versorgungsgrad</m> ist deine Region für neue Zulassungen gesperrt.",
+   "fuss": "Quelle: § 101 Abs. 1 Satz 3, § 103 Abs. 1 SGB V · keine Rechtsberatung und keine Anlage&#8209;/Steuerberatung"
+  },
+  {
+   "text": "Das Soll ist <m>ein Hausarzt je 1.633 Einwohner,</m> das sind 100 %.",
+   "fuss": "Quelle: § 11 Abs. 4 Bedarfsplanungs-Richtlinie des G-BA, Stand 11.4.2026 · keine Rechtsberatung und keine Anlage&#8209;/Steuerberatung"
+  },
+  {
+   "text": "Bei 50.000 Einwohnern sperrt im Beispiel <m>der 34. Hausarzt</m> die Stadt.",
+   "fuss": "Beispiel: 50.000 ÷ 1.633 = 30,6 Hausärzte = 100 %, 34 Hausärzte = 111,0 %, ohne Alters- und Krankheitsfaktor · keine Rechtsberatung und keine Anlage&#8209;/Steuerberatung"
+  },
+  {
+   "text": "In der gesperrten Region gibt es einen Sitz <m>nur noch per Übernahme.</m>",
+   "fuss": "Quelle: § 103 Abs. 3a und 4 SGB V: Die KV schreibt aus, der Zulassungsausschuss wählt · keine Rechtsberatung und keine Anlage&#8209;/Steuerberatung"
+  },
+  {
+   "text": "Die Großstadtpraxis kostete <m>131.600&nbsp;€,</m> die Landpraxis 86.400&nbsp;€.",
+   "fuss": "Quelle: apoBank/Zi 2023/24, Übernahmepreis einer Hausarzt-Einzelpraxis im Schnitt · keine Rechtsberatung und keine Anlage&#8209;/Steuerberatung"
+  }
+ ],
+ "schluss_h": "<m>Teile das</m> mit Kolleginnen und Kollegen, die sich niederlassen wollen.",
+ "schluss_p": "Und speicher es dir für den Blick in den Bedarfsplan."
+}
