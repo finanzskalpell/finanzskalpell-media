@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Mindset 3 · Der zweite 100.000er · Ein-Gedanke-Reel</title>
+<style>
+@font-face{font-family:Inter;font-weight:400;src:url(fonts/inter-latin-400-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:500;src:url(fonts/inter-latin-500-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:600;src:url(fonts/inter-latin-600-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:700;src:url(fonts/inter-latin-700-normal.woff2) format('woff2')}
+@font-face{font-family:Inter;font-weight:800;src:url(fonts/inter-latin-800-normal.woff2) format('woff2')}
+:root{--vi:#7421FC;--vi2:#441196;--lil:#CDB6FF;--ink:#FFFFFF;--body:#E6DCFF;--meta:rgba(255,255,255,.62);--border:rgba(255,255,255,.18)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#441196}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;background:#441196;font-family:Inter,system-ui,sans-serif;color:#fff}
+.rad{position:absolute;border-radius:50%;filter:blur(70px)}
+.rad1{width:1300px;height:1300px;top:-640px;right:-620px;background:radial-gradient(closest-side,rgba(116,33,252,.42),rgba(116,33,252,0))}
+.rad2{width:1100px;height:1100px;bottom:-560px;left:-520px;background:radial-gradient(closest-side,rgba(30,6,80,.6),rgba(30,6,80,0))}
+.hdr{position:absolute;left:118px;right:122px;top:250px;height:80px;display:flex;align-items:center;justify-content:space-between}
+.hdr img{height:38px;display:block}
+.tag{background:#fff;color:#441196;font:600 27px/1 Inter;padding:15px 26px;border-radius:999px;white-space:nowrap}
+.pill{display:inline-flex;align-items:center;gap:14px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);border-radius:999px;padding:14px 28px 14px 22px;font:500 29px/1 Inter;color:#fff}
+.pill svg{width:34px;height:34px;stroke:var(--lil);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.sc{position:absolute;left:118px;right:122px;top:400px;height:1070px;opacity:0;transform-origin:50% 40%;display:flex;flex-direction:column;justify-content:center;padding-bottom:70px}
+.eyebrow{font:800 26px/1.3 Inter;letter-spacing:.16em;text-transform:uppercase;color:var(--lil);margin-bottom:26px}
+.display{font:800 92px/1.05 Inter;letter-spacing:-.04em;color:#fff}
+.display .vi{color:var(--lil)}
+.sub{font:500 42px/1.36 Inter;color:var(--body);margin-top:34px}
+.sub b{color:#fff;font-weight:700}
+.foot{position:absolute;left:0;right:0;bottom:0;font:500 28px/1.3 Inter;color:var(--meta)}
+.line{display:block}
+.an{opacity:0}
+.big{font:800 236px/1.02 Inter;letter-spacing:-.05em;color:#fff;white-space:nowrap;margin-top:24px;font-variant-numeric:tabular-nums}
+.big small{font-size:92px;color:var(--lil);margin-left:22px}
+.bar{margin-top:40px;height:22px;border-radius:11px;background:rgba(255,255,255,.14);overflow:hidden}
+.bar i{display:block;height:100%;width:0;border-radius:11px;background:linear-gradient(90deg,#fff,var(--lil))}
+.scale{display:flex;justify-content:space-between;font:600 26px/1 Inter;color:var(--meta);margin-top:14px}
+.cta{position:absolute;left:0;right:0;top:20px;height:1030px;background:#fff;border-radius:36px;padding:60px 70px 200px;color:#0F172A;display:flex;flex-direction:column;justify-content:center}
+.cta .eyebrow{color:#6331A3}.cta .display{color:#0F172A;font-size:70px}.cta .display .vi{color:#7421FC}.cta .sub{color:#475569}
+.btn{display:inline-flex;align-items:center;gap:18px;margin-top:60px;background:linear-gradient(90deg,#7421FC,#441196);color:#fff;font:700 36px/1 Inter;padding:30px 48px;border-radius:999px;box-shadow:0 18px 40px rgba(116,33,252,.28);white-space:nowrap}
+.btn svg{width:34px;height:34px;stroke:#fff;fill:none;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.cta .logo{position:absolute;left:70px;bottom:82px;height:32px}
+.cta .site{position:absolute;right:70px;bottom:84px;font:600 30px/1 Inter;color:#64748B}
+.prog{position:absolute;left:118px;right:122px;top:1494px;height:6px;background:rgba(255,255,255,.18);border-radius:3px}
+.prog .pb{height:100%;width:0;background:#fff;border-radius:3px}
+.hdr .topic{background:#fff;color:#441196;font:800 27px/1 Inter;letter-spacing:.12em;text-transform:uppercase;padding:17px 26px;border-radius:999px;white-space:nowrap}
+.hdr .label{text-align:right;font:600 30px/1.2 Inter;color:#E6DCFF;padding-right:20px;border-right:8px solid #fff}.hdr .label b{color:#fff;font-weight:700}
+.mkw{position:relative;display:inline-block}
+.mkbg{position:absolute;left:-16px;top:6px;height:118px;width:0;border-radius:20px;background:#fff;overflow:hidden;white-space:nowrap;box-shadow:0 14px 34px rgba(10,0,40,.35)}
+.mkt{position:absolute;left:16px;top:-6px;color:#441196;line-height:1.04}
+.ctr{display:flex;align-items:center;gap:22px;margin-top:70px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.22);border-radius:28px;padding:22px 30px}
+.ctr .cal{width:64px;height:64px;border-radius:18px;background:#fff;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+.ctr .cal svg{width:36px;height:36px;stroke:#441196;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.ctr .cn{font:800 64px/1 Inter;color:#fff;min-width:250px;font-variant-numeric:tabular-nums;letter-spacing:-.03em}
+.ctr .cl{flex:1;text-align:right;font:600 34px/1.15 Inter;color:var(--body)}
+.rows3{margin-top:44px;display:flex;flex-direction:column;gap:26px}
+.r3 .lab{font:600 34px/1.2 Inter;color:var(--body);margin-bottom:12px;display:flex;justify-content:space-between}
+.r3 .lab b{color:#fff;font-weight:800;font-size:40px;white-space:nowrap}
+.r3 .trk{height:40px;border-radius:12px;background:rgba(255,255,255,.12);overflow:hidden}
+.r3 .trk i{display:block;height:100%;width:0;border-radius:12px;background:rgba(255,255,255,.45)}
+.r3.hi .trk i{background:linear-gradient(90deg,#fff,#CDB6FF)}
+.r3.hi .lab b{color:#CDB6FF}
+</style>
+</head>
+<body>
+<div id="stage">
+  <div class="rad rad1" id="rad1"></div><div class="rad rad2" id="rad2"></div>
+  <div class="hdr"><div class="topic">Vermögen</div><div class="label">Finanzen von und für<br><b>Ärztinnen und Ärzte</b></div></div>
+
+  <!-- 0 Hook: Frage ab Bild 0, Marker + Zähler, der auf „? Jahre“ stehen bleibt -->
+  <section class="sc" id="s0">
+    <div class="display" style="font-size:112px;line-height:1.05">
+      <span class="line an">Du sparst seit</span>
+      <span class="line an"><span class="mkw"><span style="color:#CDB6FF">zehn Jahren</span><span class="mkbg" id="mkbg"><span class="mkt">zehn Jahren</span></span></span></span>
+      <span class="line an">und hast erst</span>
+      <span class="line an">100.000&nbsp;€<span id="qm" style="display:inline-block">?</span></span>
+    </div>
+    <div class="ctr an"><span class="cal"><svg viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="13" rx="3"/><circle cx="12" cy="12.5" r="2.6"/><path d="M6 9.5v6M18 9.5v6"/></svg></span><span class="cn" id="cn">0&nbsp;€</span><span class="cl" id="cl">in 10 Jahren<br>angespart</span></div>
+  </section>
+
+  <!-- 1 Die Zahl: drei 100.000er, jeder schneller -->
+  <section class="sc" id="s1">
+    <div class="eyebrow an" style="font-size:28px">Beispiel · 650&nbsp;€ im Monat, 5&nbsp;% Rendite nach Inflation</div>
+    <div class="display an" style="font-size:70px">Die nächsten 100.000&nbsp;€ kommen schneller, ohne dass du mehr einzahlst.</div>
+    <div class="rows3">
+      <div class="r3 an" id="b0"><div class="lab"><span>Die ersten 100.000&nbsp;€</span><b>10 Jahre</b></div><div class="trk"><i id="i0"></i></div></div>
+      <div class="r3 hi an" id="b1"><div class="lab"><span>Die zweiten 100.000&nbsp;€</span><b>knapp 7 Jahre</b></div><div class="trk"><i id="i1"></i></div></div>
+      <div class="r3 hi an" id="b2"><div class="lab"><span>Die dritten 100.000&nbsp;€</span><b>rund 5 Jahre</b></div><div class="trk"><i id="i2"></i></div></div>
+    </div>
+    <div class="sub an" style="font-size:44px;margin-top:34px">Ab rund 156.000&nbsp;€ bringt dein Geld im Jahr <b>mehr ein, als du selbst einzahlst.</b></div>
+    <div class="foot an">Beispiel: monatlich angelegt, 5&nbsp;% Rendite nach Inflation, eigene Rechnung · keine&nbsp;Anlage&#8209;/Steuerberatung</div>
+  </section>
+
+  <!-- 2 CTA -->
+  <section class="sc" id="s2">
+    <div class="cta">
+      <div class="eyebrow an">Schick es weiter</div>
+      <div class="display an" style="font-size:80px;line-height:1.07"><span class="vi">Teile das</span> mit Kolleginnen und Kollegen, die gerade denken, es geht nicht voran.</div>
+      <div class="sub an" style="font-size:46px;margin-top:44px">Der erste 100.000er braucht Ausdauer. Die kennst du aus jedem langen Dienst.</div>
+      <img class="logo an" src="logo-hell.png" alt="Finanzskalpell"><span class="site an">finanzskalpell.de</span>
+    </div>
+  </section>
+
+  <div class="prog"><div class="pb" id="pb"></div></div>
+</div>
+<script>
+const SC=[{in:0.0,out:3.5},{in:3.1,out:12.99},{in:12.59,out:17.6}];
+const T=SC[SC.length-1].out, X=0.4;
+const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+const seg=(t,a,d)=>clamp((t-a)/d,0,1);
+const out3=t=>1-Math.pow(1-t,3);
+const inout=t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2;
+const $=id=>document.getElementById(id);
+const secs=SC.map((_,i)=>$('s'+i)); const ans=secs.map(s=>[...s.querySelectorAll('.an')]);
+function rise(el,p,dy=40){el.style.opacity=p;el.style.transform=`translateY(${(1-p)*dy}px)`;}
+function stagger(list,lt,start,gap,dur=0.5,dy=40){list.forEach((el,i)=>rise(el,out3(seg(lt,start+i*gap,dur)),dy));}
+function sceneState(i,t){const s=SC[i];if(t<s.in||t>s.out)return null;const lt=t-s.in,dur=s.out-s.in;const e=i===0?1:out3(seg(lt,0,X)),x=i===SC.length-1?0:seg(t,s.out-X,X);return{lt,dur,op:e*(1-x),e,zoom:1+0.02*(lt/dur)};}
+const de=v=>Math.round(v).toLocaleString('de-DE');
+// Monate je 100.000 € bei 650 € im Monat und 5 % real: 120, 80, 61 (eigene Rechnung); Balkenlänge proportional zur Dauer
+const M=[120,80,61];
+function seek(t){
+  t=clamp(t,0,T);
+  $('rad1').style.opacity=0.8+0.2*Math.sin(t*0.9);$('rad2').style.opacity=0.85+0.15*Math.sin(t*0.9+2);
+  $('pb').style.width=(t/T*100)+'%';
+  for(let i=0;i<SC.length;i++){
+    const st=sceneState(i,t),sec=secs[i];
+    if(!st){sec.style.opacity=0;sec.style.visibility='hidden';continue;}
+    sec.style.visibility='visible';sec.style.opacity=st.op;sec.style.transform=`translateY(${(1-st.e)*24}px) scale(${st.zoom})`;
+    const a=ans[i],lt=st.lt;
+    switch(i){
+      case 0:{ a.forEach(el=>rise(el,1));
+        const mp=out3(seg(lt,0.15,0.55)); $('mkbg').style.width=`calc(${mp*100}% + ${32*mp}px)`;
+        // Depot zählt bis 100.000 €, dann bleibt die Frage nach den zweiten offen
+        const cp=seg(lt,0.45,1.7); const v=Math.round(100*out3(cp))*1000;
+        $('cn').innerHTML=cp>=1?'?&nbsp;Jahre':de(v)+'&nbsp;€';
+        $('cl').innerHTML=cp>=1?'für die nächsten<br>100.000&nbsp;€':'in 10 Jahren<br>angespart';
+        const qp=seg(lt,2.15,0.34);
+        $('cn').style.transform=`scale(${1+0.3*Math.sin(qp*Math.PI)})`;$('cn').style.transformOrigin='left center';
+        $('qm').style.transform=`scale(${1+0.25*Math.sin(qp*Math.PI)}) rotate(${-10*Math.sin(qp*Math.PI)}deg)`;$('qm').style.color=qp>0?'#CDB6FF':'';
+        break;}
+      case 1:{
+        stagger([a[0],a[1]],lt,0.05,0.25,0.5,50);
+        for(let k=0;k<3;k++){ rise($('b'+k),out3(seg(lt,0.8+k*1.6,0.4)),24);
+          $('i'+k).style.width=(M[k]/120*100*inout(seg(lt,1.0+k*1.6,1.3)))+'%'; }
+        rise(a[5],out3(seg(lt,6.0,0.6)),30); rise(a[6],out3(seg(lt,0.4,0.5)),20);
+        break;}
+      case 2: stagger(a,lt,0.1,0.3,0.55,40); break;
+    }
+  }
+}
+window.seek=seek;window.T=T;window.SC=SC;seek(0);
+</script>
+</body>
+</html>

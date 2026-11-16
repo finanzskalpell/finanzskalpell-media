@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><title>Grafik des Tages · Frauenanteil nach Tätigkeitsbereich (Paar 45)</title>
+<link rel="stylesheet" href="ws.css">
+<style>
+.h{font:800 74px/1.05 Inter;letter-spacing:-.04em;color:var(--ink)}
+.h .vi{color:var(--vi)}
+.legend{display:flex;flex-direction:row;gap:34px;margin-top:22px;font:500 31px/1.25 Inter;color:var(--body)}
+.legend span{display:flex;align-items:center;gap:14px}
+.legend i{flex:0 0 auto;display:block;width:24px;height:24px;border-radius:6px;background:#7421FC}
+.legend i.ctx{background:#CBD5E1}
+.chart{margin-top:22px;width:888px;height:380px}
+.chart svg{width:888px;height:380px;display:block;overflow:visible}
+.lb{font:600 29px Inter;fill:#0F172A}
+.el{font:800 34px Inter;letter-spacing:-.02em}
+.ax{font:500 24px Inter;fill:#64748B}
+</style></head><body>
+<div class="k" data-tag="Ärztinnen">
+  <div class="c">
+    <div class="eyebrow">Grafik des Tages · Ärztestatistik</div>
+    <div class="h">In der Klinikleitung sind <span class="vi">18,5&nbsp;%</span> Frauen, darunter 52,1&nbsp;%.</div>
+    <div class="sub" style="font-size:34px;margin-top:18px">Anteil der Ärztinnen je Bereich, Ende 2025.</div>
+    <div class="legend"><span><i></i>Krankenhaus</span><span><i class="ctx"></i>zum Vergleich</span></div>
+    <div class="chart"><svg id="svg" viewBox="0 0 888 380"></svg></div>
+    <div class="foot">Quelle: Bundesärztekammer, Ärztestatistik 31.12.2025, Tab. 3 und 4, eigene Rechnung · keine&nbsp;Anlage&#8209;/Steuerberatung</div>
+  </div>
+</div>
+<script>
+const data=[['Ambulant angestellt',62.6,0],['Klinik ohne Leitung',52.1,1],['Alle berufstätigen',50.5,0],['Niedergelassen',43.5,0],['Klinikleitung',18.5,1]];
+const W=888,H=380,LW=330,RW=110,bh=48,gap=(H-30-data.length*bh)/(data.length-1),VMAX=70;
+const xv=v=>LW+(W-LW-RW)*v/VMAX;
+let s=`<defs><linearGradient id="gv" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7421FC"/><stop offset="1" stop-color="#441196"/></linearGradient></defs>`;
+/* Hälfte-Linie in Segmenten: Bänder der Wertlabels (Balkenende bis Label-Ende) aussparen, damit sie keinen Wert durchkreuzt */
+const LBLW=120, x50=xv(50);
+const bands=data.map(([l,v],i)=>({y:i*(bh+gap),hit:x50>xv(v)+8&&x50<xv(v)+14+LBLW})).filter(b=>b.hit).map(b=>[b.y-4,b.y+bh+4]);
+let y0=0;bands.forEach(([a,b])=>{if(a>y0)s+=`<line x1="${x50}" y1="${y0}" x2="${x50}" y2="${a}" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6 7"/>`;y0=b;});
+s+=`<line x1="${x50}" y1="${y0}" x2="${x50}" y2="${H-30}" stroke="#94A3B8" stroke-width="2" stroke-dasharray="6 7"/>`;
+s+=`<text class="ax" x="${xv(50)}" y="${H-2}" text-anchor="middle">Hälfte</text>`;
+data.forEach(([l,v,st],i)=>{const y=i*(bh+gap), w=xv(v)-LW;
+  s+=`<text class="lb" x="${LW-20}" y="${y+bh/2+10}" text-anchor="end">${l}</text>`;
+  s+=`<rect x="${LW}" y="${y}" width="${w}" height="${bh}" rx="10" fill="${st?'url(#gv)':'#CBD5E1'}"/>`;
+  s+=`<text class="el" style="fill:${st?'#7421FC':'#475569'}" x="${LW+w+14}" y="${y+bh/2+12}">${String(v).replace('.',',')}&#8239;%</text>`;});
+document.getElementById('svg').innerHTML=s;
+</script>
+<script src="ws.js"></script>
+</body></html>
